@@ -1,47 +1,94 @@
-// this tells Next.js this is a client component
 "use client"
 
-// importing hooks only works in client component
-import { useState } from "react";
+import { useState, useEffect } from "react"
 
-export default function Quiz(){
-    // track which answer the user selected
-    const [selected, setSelected] = useState<string | null>(null)
+// define the shape of a question from our API
+interface Question {
+  question: string
+  answers: string[]
+  correct: string
+  explanation: string
+}
 
-    // hardcoded questions for now openAI will generate these later
-    const question = "What does a yellow traffic light mean?"
+export default function Quiz() {
+  // store the AI generated question
+  const [question, setQuestion] = useState<Question | null>(null)
+  
+  // track which answer user selected
+  const [selected, setSelected] = useState<string | null>(null)
+  
+  // track if answer was correct
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
+  
+  // show loading while AI generates question
+  const [loading, setLoading] = useState(true)
 
-    const answers = [
-        "Speed up",
-        "Slow down and prepare to stop",
-        "Stop immediately",
-        "Yield to pedestrians"
-    ]
+  // fetch a question when component mounts
+  useEffect(() => {
+    fetchQuestion()
+  }, [])
 
-    return (
-        <main>
-            <h1>DMV Practice Quiz</h1>
-            {/*display the question */}
-            <p>{question}</p>
-            {/* display each answer as a button */}
-            {answers.map((answer) => (
-                <button
-                  key={answer}
-                  onClick={() => setSelected(answer)}
-                  style={{
-                    display: "block",
-                    margin: "8px 0",
-                    padding:"8px 16px",
-                    /// highlight selected answer
-                    background: selected === answer ? "blue" : "gray",
-                    color: "white",
-                    cursor: "pointer"
+  // function to fetch AI question from our API
+  async function fetchQuestion() {
+    // reset everything for new question
+    setLoading(true)
+    setSelected(null)
+    setIsCorrect(null)
 
-                  }}
-                  > {answer} </button>
-            ))}
-            {/* show selected answer only if somthing is selected*/}
-            {selected && <p>You selected: {selected}</p>}
-        </main>
-    )
+    // call our API route
+    const res = await fetch('/api/generate-question')
+    const data = await res.json()
+    
+    setQuestion(data)
+    setLoading(false)
+  }
+
+  // handle when user clicks an answer
+  function handleAnswer(answer: string) {
+    setSelected(answer)
+    setIsCorrect(answer === question?.correct)
+  }
+
+  // show loading state
+  if (loading) return <p>Generating question...</p>
+
+  return (
+    <main>
+      <h1>DMV Practice Quiz</h1>
+
+      {/* display AI generated question */}
+      <p>{question?.question}</p>
+
+      {/* display each answer as a button */}
+      {question?.answers.map((answer) => (
+        <button
+          key={answer}
+          onClick={() => handleAnswer(answer)}
+          disabled={selected !== null}
+          style={{
+            display: "block",
+            margin: "8px 0",
+            padding: "8px 16px",
+            background: selected === null ? "gray"
+              : answer === question.correct ? "green"
+              : selected === answer ? "red"
+              : "gray",
+            color: "white",
+            cursor: selected ? "default" : "pointer"
+          }}
+        >
+          {answer}
+        </button>
+      ))}
+
+      {/* show result after answering */}
+      {selected && (
+        <div>
+          <p>{isCorrect ? "✅ Correct!" : "❌ Wrong!"}</p>
+          <p>{question?.explanation}</p>
+          <button onClick={fetchQuestion}>Next Question</button>
+        </div>
+      )}
+    </main>
+  )
 }
