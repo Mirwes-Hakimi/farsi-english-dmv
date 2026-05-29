@@ -8,23 +8,34 @@ const openai = new OpenAI({
 
 export async function GET() {
   // ask OpenAI to generate a DMV question
-  const completion = await openai.chat.completions.create({
-    model: "gpt-4o-mini", // fast and cheap model
-    messages: [
+ const completion = await openai.chat.completions.create({
+  model: "gpt-4o-mini",
+  temperature: 1.2, 
+  messages: [
       {
         role: "system",
         content: "You are a California DMV test expert. Generate practice questions."
       },
       {
         role: "user",
-        content: `Generate 1 multiple choice DMV practice question.
-        Return ONLY a JSON object in this exact format:
-        {
-          "question": "the question here",
-          "answers": ["option1", "option2", "option3", "option4"],
-          "correct": "the correct answer here",
-          "explanation": "why this is correct"
-        }`
+       content: `Generate 1 random multiple choice California DMV practice question.
+Make it different each time - vary between these categories:
+- Road signs
+- Speed limits  
+- Right of way
+- Parking rules
+- Traffic lights
+- DUI laws
+- Freeway driving
+- Weather conditions
+
+Return ONLY a JSON object in this exact format:
+{
+  "question": "the question here",
+  "answers": ["option1", "option2", "option3", "option4"],
+  "correct": "the correct answer here",
+  "explanation": "why this is correct"
+}`
       }
     ]
   })

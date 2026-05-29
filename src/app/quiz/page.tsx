@@ -1,8 +1,6 @@
 "use client"
+import { useState, useEffect } from "react";
 
-import { useState, useEffect } from "react"
-
-// define the shape of a question from our API
 interface Question {
   question: string
   answers: string[]
@@ -10,85 +8,101 @@ interface Question {
   explanation: string
 }
 
-export default function Quiz() {
-  // store the AI generated question
-  const [question, setQuestion] = useState<Question | null>(null)
+export default function Quiz(){
+
+const [question, setQuestion] = useState<Question | null>(null)
+
+const [selected, setSelected] = useState<string | null>(null)
+
+const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
+
+const [loading, setLoading] = useState(true)
+
+
+/// runs once when component mounts or pade loads
+useEffect(() => {
+  // call fetchQueion to get AI question immediately
+  fetchQuestion()
+  /// [] run oce on mount never again
+}, [])
+
+// async because we use await inside
+async function fetchQuestion() {
+  /// show loading spinner while fetching
+  setLoading(true)
+
+  ///Clear previous answer selection
+  setSelected(null)
+
+  //clear previous correct/wrong result
+  setIsCorrect(null)
+
+// call our API route await waits for response
+const res = await fetch('/api/generate-question')
+
+// convert response to JS object await waits for this too
+const data = await res.json()
+
+// save the question to state so component can display it 
+setQuestion(data)
+
+/// hide loading show the question
+setLoading(false)
+}
+
+// runs when user clicks an answer button
+// answer string = TypeScript says this must be a string
+function handleAnswer(answer: string){
+  /// save which answer the user clicked
+  setSelected(answer)
+
+  // check if clicked answer matches the correct answer 
+
+  setIsCorrect(answer === question?.correct)
+
+
+}
+
+
+  //if loading is true, show this instead of the quiz 
+
+if (loading) return <p>Gernerating question...</p>
+
+return (
+  <main>
+    <h1>DMV Practice Quiz</h1>
+    {/*display AI generated question  */}
+    <p>{question?.question}</p>
   
-  // track which answer user selected
-  const [selected, setSelected] = useState<string | null>(null)
-  
-  // track if answer was correct
-  const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
-  
-  // show loading while AI generates question
-  const [loading, setLoading] = useState(true)
-
-  // fetch a question when component mounts
-  useEffect(() => {
-    fetchQuestion()
-  }, [])
-
-  // function to fetch AI question from our API
-  async function fetchQuestion() {
-    // reset everything for new question
-    setLoading(true)
-    setSelected(null)
-    setIsCorrect(null)
-
-    // call our API route
-    const res = await fetch('/api/generate-question')
-    const data = await res.json()
-    
-    setQuestion(data)
-    setLoading(false)
-  }
-
-  // handle when user clicks an answer
-  function handleAnswer(answer: string) {
-    setSelected(answer)
-    setIsCorrect(answer === question?.correct)
-  }
-
-  // show loading state
-  if (loading) return <p>Generating question...</p>
-
-  return (
-    <main>
-      <h1>DMV Practice Quiz</h1>
-
-      {/* display AI generated question */}
-      <p>{question?.question}</p>
-
-      {/* display each answer as a button */}
-      {question?.answers.map((answer) => (
-        <button
-          key={answer}
-          onClick={() => handleAnswer(answer)}
-          disabled={selected !== null}
-          style={{
-            display: "block",
-            margin: "8px 0",
-            padding: "8px 16px",
-            background: selected === null ? "gray"
-              : answer === question.correct ? "green"
-              : selected === answer ? "red"
-              : "gray",
-            color: "white",
-            cursor: selected ? "default" : "pointer"
-          }}
-        >
-          {answer}
-        </button>
-      ))}
-
-      {/* show result after answering */}
-      {selected && (
-        <div>
-          <p>{isCorrect ? "✅ Correct!" : "❌ Wrong!"}</p>
-          <p>{question?.explanation}</p>
-          <button onClick={fetchQuestion}>Next Question</button>
-        </div>
-      )}
-    </main>
+  {/* display each answer as a  button */}
+  {question?.answers.map((answer) => (
+     <button
+   key={answer}
+   onClick={() => handleAnswer(answer) }
+   style={{
+    display: "block",
+    margin: "8px 0",
+    padding: "8px 16px",
+    background: selected === null ? "orange"
+      : answer === question.correct ? "green"
+      : selected === answer ? "red"
+      : "orange",
+      color : "white",
+      cursor: selected ? "default" : "pointer"
+   }}
+   disabled={selected !== null}
+   >{answer}</button>
+  ))}
+  {/* show result after answering */}
+  {selected && (
+    <div>
+     {/* show correct or wrong message */}
+     <p>{isCorrect ? "✅ Correct!" : "❌ Wrong!"}</p>
+     <p>{question?.explanation}</p>
+      {/* fetch a brand new question */}
+      <button onClick={fetchQuestion}>Next Question</button>
+    </div>
+  )}
+ </main>
   )
 }
