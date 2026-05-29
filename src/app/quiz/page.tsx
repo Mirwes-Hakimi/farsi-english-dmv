@@ -18,6 +18,15 @@ const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
 
 const [loading, setLoading] = useState(true)
 
+// how many questions answered starts at 0
+const [questionCount, setQuestionCount]
+ =useState(0)
+
+// how many correct starts 0
+const [score, setScore] = useState()
+
+/// is quiz over starts as false
+const [isFinished, setISFinished] = useState(false)
 
 /// runs once when component mounts or pade loads
 useEffect(() => {
