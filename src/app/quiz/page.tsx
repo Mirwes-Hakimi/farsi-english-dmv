@@ -92,7 +92,7 @@ return (
     display: "block",
     margin: "8px 0",
     padding: "8px 16px",
-    background: selected === null ? "orange"
+    background: selected === null ? "purple"
       : answer === question.correct ? "green"
       : selected === answer ? "red"
       : "orange",
