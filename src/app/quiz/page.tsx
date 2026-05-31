@@ -23,7 +23,7 @@ const [questionCount, setQuestionCount]
  =useState(0)
 
 // how many correct starts 0
-const [score, setScore] = useState()
+const [score, setScore] = useState(0)
 
 /// is quiz over starts as false
 const [isFinished, setISFinished] = useState(false)
@@ -68,7 +68,18 @@ function handleAnswer(answer: string){
   // check if clicked answer matches the correct answer 
 
   setIsCorrect(answer === question?.correct)
+ 
+  /// increment count safely
+  setQuestionCount(prev => prev + 1)
+  
+  // increment score if correct
+  if(answer === question?.correct)
+    setScore(prev => prev + 1)
 
+  if (questionCount + 1 === 10 )
+    setISFinished(true)
+    
+  
 
 }
 
@@ -77,6 +88,28 @@ function handleAnswer(answer: string){
 
 if (loading) return <p>Gernerating question...</p>
 
+// show results screen when quiz is finished
+if (isFinished) return (
+  <main>
+    <h1>Quiz Complete!</h1>
+    {/* show final score */}
+    <p>You scored {score} out of 10</p>
+    {/*pass or fail message */}
+    <p>{score >= 7 ? "✅ Pass! You are ready for the DMV test!" : "❌ Fail. Keep practicing!" }</p>
+      {/* play again button resets everything */}
+      <button onClick={() => {
+        setScore(0)
+        setQuestionCount(0)
+        setISFinished(false)
+        setSelected(null)
+        setIsCorrect(null)
+        fetchQuestion()
+
+      }}>
+        Try Again
+      </button>
+  </main>
+)
 return (
   <main>
     <h1>DMV Practice Quiz</h1>
@@ -92,7 +125,7 @@ return (
     display: "block",
     margin: "8px 0",
     padding: "8px 16px",
-    background: selected === null ? "purple"
+    background: selected === null ? "gray"
       : answer === question.correct ? "green"
       : selected === answer ? "red"
       : "orange",
