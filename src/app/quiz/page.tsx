@@ -46,6 +46,8 @@ async function fetchQuestion() {
   //clear previous correct/wrong result
   setIsCorrect(null)
 
+  setQuestionCount(prev => prev + 1)
+
 // call our API route await waits for response
 const res = await fetch('/api/generate-question')
 
@@ -69,8 +71,11 @@ function handleAnswer(answer: string){
 
   setIsCorrect(answer === question?.correct)
  
-  /// increment count safely
-  setQuestionCount(prev => prev + 1)
+
+  /// checks against 10 directly since count updates in fetchQuestion
+  if (questionCount === 9)
+      setISFinished(true)
+
   
   // increment score if correct
   if(answer === question?.correct)
@@ -113,6 +118,8 @@ if (isFinished) return (
 return (
   <main>
     <h1>DMV Practice Quiz</h1>
+
+    <p>Question {questionCount} of 10</p>
     {/*display AI generated question  */}
     <p>{question?.question}</p>
   
