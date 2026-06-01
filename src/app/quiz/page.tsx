@@ -119,42 +119,59 @@ if (isFinished) return (
   </main>
 )
 return (
-  <main>
-    <h1>DMV Practice Quiz</h1>
+  <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
 
-    <p>Question {questionCount} of 10</p>
+     <div className="flex justify-between items-center mb-6">
+       <h1 className="text-2xl font-bold text-gray-800">DMV Practice Quiz</h1>
+
+    <span className="text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Question {questionCount} of 10</span>
+      </div>
+
+      <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
+
+        <div className="bg-blue-600 h-2 rounded-full transition-all"
+        style={{ width:  `${(questionCount / 10) * 100}%`}}>
+
+
+        </div>
+      </div>
     {/*display AI generated question  */}
-    <p>{question?.question}</p>
+    <p className="text-lg font-medium text-gray-900 mb-6">{question?.question}</p>
   
+  <div className="flex flex-col gap-3">
   {/* display each answer as a  button */}
   {question?.answers.map((answer) => (
      <button
    key={answer}
    onClick={() => handleAnswer(answer) }
-   style={{
-    display: "block",
-    margin: "8px 0",
-    padding: "8px 16px",
-    background: selected === null ? "gray"
-      : answer === question.correct ? "green"
-      : selected === answer ? "red"
-      : "orange",
-      color : "white",
-      cursor: selected ? "default" : "pointer"
-   }}
+
    disabled={selected !== null}
+   className={`p-4 rounded-lg text-left font-medium transition-colors border-2
+    ${selected === null ? 'border-gray-200 hover:border-blue-400 hover:bg-blue-50'
+      : answer ===question.correct
+      ? 'border-green-500 bg-green-50 text-green-700'
+      : selected === answer
+      ? 'border-red-500 bg-red-50 text-red-700'
+      : 'border-gray-200 text-gray-400'
+    }`}
+   
    >{answer}</button>
   ))}
   {/* show result after answering */}
   {selected && (
-    <div>
+    <div className="mt-6 p-4 rounded-lg bg-gray-50 border border-gray-200">
      {/* show correct or wrong message */}
-     <p>{isCorrect ? "✅ Correct!" : "❌ Wrong!"}</p>
-     <p>{question?.explanation}</p>
+     <p className="font-bold text-lg mb-2">{isCorrect ? "✅ Correct!" : "❌ Wrong!"}</p>
+     <p className="text-gray-600 mb-4">{question?.explanation}</p>
       {/* fetch a brand new question */}
-      <button onClick={fetchQuestion}>Next Question</button>
+      <button onClick={fetchQuestion}
+      className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Next Question</button>
     </div>
+    
   )}
+  </div>
+    </div>
  </main>
   )
 }
