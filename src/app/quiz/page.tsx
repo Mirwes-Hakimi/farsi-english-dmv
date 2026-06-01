@@ -26,7 +26,7 @@ const [questionCount, setQuestionCount]
 const [score, setScore] = useState(0)
 
 /// is quiz over starts as false
-const [isFinished, setISFinished] = useState(false)
+const [isFinished, setIsFinished] = useState(false)
 
 /// runs once when component mounts or pade loads
 useEffect(() => {
@@ -74,7 +74,7 @@ function handleAnswer(answer: string){
 
   /// checks against 10 directly since count updates in fetchQuestion
   if (questionCount === 9)
-      setISFinished(true)
+      setIsFinished(true)
 
   
   // increment score if correct
@@ -82,7 +82,7 @@ function handleAnswer(answer: string){
     setScore(prev => prev + 1)
 
   if (questionCount + 1 === 10 )
-    setISFinished(true)
+    setIsFinished(true)
     
   
 
@@ -95,24 +95,27 @@ if (loading) return <p>Gernerating question...</p>
 
 // show results screen when quiz is finished
 if (isFinished) return (
-  <main>
-    <h1>Quiz Complete!</h1>
-    {/* show final score */}
-    <p>You scored {score} out of 10</p>
-    {/*pass or fail message */}
-    <p>{score >= 7 ? "✅ Pass! You are ready for the DMV test!" : "❌ Fail. Keep practicing!" }</p>
-      {/* play again button resets everything */}
-      <button onClick={() => {
-        setScore(0)
-        setQuestionCount(0)
-        setISFinished(false)
-        setSelected(null)
-        setIsCorrect(null)
-        fetchQuestion()
-
-      }}>
+  <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
+    <div className="bg-white p-8 rounded-xl shadow-lg text-center max-w-md w-full">
+      <h1 className="text-3xl font-bold mb-4">Quiz Complete!</h1>
+      <p className="text-xl mb-2">You scored <span className="font-bold text-blue-600">{score} out of 10</span></p>
+      <p className={`text-lg font-semibold mb-6 ${score >= 7 ? 'text-green-600' : 'text-red-600'}`}>
+        {score >= 7 ? "✅ Pass! You are ready for the DMV test!" : "❌ Fail. Keep practicing!"}
+      </p>
+      <button 
+        onClick={() => {
+          setScore(0)
+          setQuestionCount(0)
+          setIsFinished(false)
+          setSelected(null)
+          setIsCorrect(null)
+          fetchQuestion()
+        }}
+        className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors w-full"
+      >
         Try Again
       </button>
+    </div>
   </main>
 )
 return (
