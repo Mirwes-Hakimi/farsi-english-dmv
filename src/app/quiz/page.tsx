@@ -28,6 +28,9 @@ const [score, setScore] = useState(0)
 /// is quiz over starts as false
 const [isFinished, setIsFinished] = useState(false)
 
+const [askedQuestions, setAskedQuestions] = useState<string[]>([])
+
+
 /// runs once when component mounts or pade loads
 useEffect(() => {
   // call fetchQueion to get AI question immediately
@@ -48,17 +51,41 @@ async function fetchQuestion() {
 
   setQuestionCount(prev => prev + 1)
 
+  try {
 // call our API route await waits for response
-const res = await fetch('/api/generate-question')
+const res = await fetch('/api/generate-question', {
+  method: 'POST',
+  headers: {'Content-Type': 'application/json'},
+  body: JSON.stringify({ askedQuestions })
+})
+
+/// check if response is ok before parsing
+if (!res.ok) {
+  throw new Error(`API error: ${res.status}`)
+}
 
 // convert response to JS object await waits for this too
 const data = await res.json()
 
+/// add new question to asked list
+setAskedQuestions(prev => [...prev, data.question])
+
 // save the question to state so component can display it 
 setQuestion(data)
 
+  } catch (error){
+    console.error('Failed to fetch question:', error)
+    // show error to user
+    alert('Failed to load question. Please try again.')
+    // undo count increment
+    setQuestionCount(prev => prev - 1)
+  } finally {
+    /// always runs hide loading whether success or fail
+  
+
 /// hide loading show the question
 setLoading(false)
+ }
 }
 
 // runs when user clicks an answer button

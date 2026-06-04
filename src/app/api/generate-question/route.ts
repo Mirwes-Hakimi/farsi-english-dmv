@@ -6,28 +6,29 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 })
 
-export async function GET() {
+export async function POST(request: Request) {
+  /// get previously asked questions from frontend
+  const { askedQuestions } = await request.json()
+
+  const avoidList = askedQuestions.length > 0 
+    ? `Don NOT repeat these questions: ${askedQuestions.join(' | ')}`
+    : '';
+
   // ask OpenAI to generate a DMV question
- const completion = await openai.chat.completions.create({
-  model: "gpt-4o-mini",
-  temperature: 1.2, 
-  messages: [
+  const completion = await openai.chat.completions.create({
+    model: "gpt-4o-mini",
+    temperature: 1.2,
+    messages: [
       {
         role: "system",
-        content: "You are a California DMV test expert. Generate practice questions."
+        content: "You are a California DMV test expert. Generate unique practice questions."
       },
       {
         role: "user",
-       content: `Generate 1 random multiple choice California DMV practice question.
-Make it different each time - vary between these categories:
-- Road signs
-- Speed limits  
-- Right of way
-- Parking rules
-- Traffic lights
-- DUI laws
-- Freeway driving
-- Weather conditions
+        content: `Generate 1 random multiple choice California DMV practice question.
+${avoidList}
+Vary between: road signs, speed limits, right of way, parking rules, 
+traffic lights, DUI laws, freeway driving, weather conditions.
 
 Return ONLY a JSON object in this exact format:
 {
