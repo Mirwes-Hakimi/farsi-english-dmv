@@ -1,5 +1,6 @@
 
 import './globals.css'
+import Navbar from './components/Navbar'
 export default function RootLayout({
     children,
 
@@ -10,11 +11,7 @@ export default function RootLayout({
         <html lang="en">
 
             <body suppressHydrationWarning>
-                <nav>
-                    <a href="/">Home</a>
-                    {" | "}
-                    <a href="/about">About</a>
-                </nav>
+               <Navbar />
                 {children}
             </body>
         </html>
