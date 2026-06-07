@@ -19,13 +19,29 @@ export default function Home() {
                 Practice with AI-generated questions that cover every category on the California DMV written test. No two quizzes are ever the same.
               </p>
 
-              <a href="/quiz"
-                className="bg-blue-600 text-white px-10 py-4 rounded-xl font-bold
-                      text-lg hover:bg-blue-700 transition-colors shadow-lg">
-                Start Free Quiz
-              </a>
+              {/* Language selector */}
+<div className="flex flex-col items-center gap-4">
+  <p className="text-gray-500 font-medium">Select your language:</p>
+  
+  <div className="flex flex-col sm:flex-row gap-3">
+    <a href="/quiz?lang=en"
+      className="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg text-center">
+       English
+    </a>
+   <a href="/quiz?lang=fa"
+  className="bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-colors shadow-lg text-center">
+  فارسی / دری
+</a>
+    <a href="/quiz?lang=ps"
+      className="bg-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-purple-700 transition-colors shadow-lg text-center">
+       پښتو
+    </a>
+  </div>
 
-              <p className="text-gray-400 text-sm mt-4"> No signup required • 10 questions • Instant results</p>
+  <p className="text-gray-400 text-sm mt-2">
+    No signup required • 10 questions • Instant results
+  </p>
+</div>
             </section>
             {/* Features Section */}
             <section className="bg-white py-20 px-4">

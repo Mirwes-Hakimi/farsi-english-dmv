@@ -1,5 +1,6 @@
 "use client"
 import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 
 interface Question {
   question: string
@@ -9,6 +10,65 @@ interface Question {
 }
 
 export default function Quiz(){
+// read the lang parameter from the URL
+const searchParams = useSearchParams()
+const lang = searchParams.get('lang') || 'en'
+
+// UI translations for each language
+const translations = {
+  en: {
+    title: 'DMV Practice Quiz',
+    generating: 'Generating Question...',
+    aiPreparing: 'AI is preparing your next question',
+    correct: '✅ Correct!',
+    wrong: '❌ Wrong!',
+    nextQuestion: 'Next Question →',
+    quizComplete: 'Quiz Complete!',
+    youScored: 'You scored',
+    outOf: 'out of 10',
+    pass: '✅ Pass! You are ready for the DMV test!',
+    fail: '❌ Fail. Keep practicing!',
+    tryAgain: 'Try Again',
+    questionOf: 'of 10',
+  },
+  fa: {
+    title: 'آزمون تمرینی DMV',
+    generating: 'در حال آماده‌سازی سوال...',
+    aiPreparing: 'هوش مصنوعی سوال بعدی شما را آماده می‌کند',
+    correct: '✅ درست!',
+    wrong: '❌ اشتباه!',
+    nextQuestion: 'سوال بعدی ←',
+    quizComplete: 'آزمون تمام شد!',
+    youScored: 'امتیاز شما',
+    outOf: 'از ۱۰',
+    pass: '✅ قبول شدید! آماده امتحان DMV هستید!',
+    fail: '❌ قبول نشدید. بیشتر تمرین کنید!',
+    tryAgain: 'دوباره امتحان کنید',
+    
+  questionOf: `از ۱۰ :سوال`,  
+
+
+  },
+  ps: {
+    title: ' DMV د جواز ازموینه',
+    generating: 'پوښتنه چمتو کیږي...',
+    aiPreparing: 'AI ستاسو بله پوښتنه چمتو کوي',
+    correct: '✅ سمه ده!',
+    wrong: '❌ غلطه ده!',
+    nextQuestion: 'بله پوښتنه ←',
+    quizComplete: 'ازموینه بشپړه شوه!',
+    youScored: 'ستاسو نمره',
+    outOf: 'له ۱۰ څخه',
+    pass: '✅ پاس شوئ! د DMV ازموینې لپاره چمتو یاست!',
+    fail: '❌ ناکام شوئ. نور تمرین وکړئ!',
+    tryAgain: 'بیا هڅه وکړئ',
+    questionOf: 'له ۱۰ څخه',
+  }
+}
+
+// get translations for current language
+const t = translations[lang as keyof typeof translations] || translations.en
+
 
 const [question, setQuestion] = useState<Question | null>(null)
 
@@ -56,7 +116,7 @@ async function fetchQuestion() {
 const res = await fetch('/api/generate-question', {
   method: 'POST',
   headers: {'Content-Type': 'application/json'},
-  body: JSON.stringify({ askedQuestions })
+  body: JSON.stringify({ askedQuestions, lang })
 })
 
 /// check if response is ok before parsing
@@ -118,41 +178,57 @@ function handleAnswer(answer: string){
 
   //if loading is true, show this instead of the quiz 
 
-if (loading) return <p>Gernerating question...</p>
 
-// show results screen when quiz is finished
+// Loading screen
+if (loading) return (
+  <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
+    <div className="text-center">
+      <div className="text-6xl mb-6">🚗</div>
+      <h2 className="text-2xl font-bold text-gray-800 mb-2">{t.generating}</h2>
+      <p className="text-gray-500">{t.aiPreparing}</p>
+    </div>
+  </main>
+)
+
+// Results screen
 if (isFinished) return (
   <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
     <div className="bg-white p-8 rounded-xl shadow-lg text-center max-w-md w-full">
-      <h1 className="text-3xl font-bold mb-4">Quiz Complete!</h1>
-      <p className="text-xl mb-2">You scored <span className="font-bold text-blue-600">{score} out of 10</span></p>
+      <h1 className="text-3xl font-bold mb-4">{t.quizComplete}</h1>
+      <p className="text-xl mb-2">{t.youScored} <span className="font-bold text-blue-600">{score} {t.outOf}</span></p>
       <p className={`text-lg font-semibold mb-6 ${score >= 7 ? 'text-green-600' : 'text-red-600'}`}>
-        {score >= 7 ? "✅ Pass! You are ready for the DMV test!" : "❌ Fail. Keep practicing!"}
+        {score >= 7 ? t.pass : t.fail}
       </p>
-      <button 
-        onClick={() => {
-          setScore(0)
-          setQuestionCount(0)
-          setIsFinished(false)
-          setSelected(null)
-          setIsCorrect(null)
-          fetchQuestion()
-        }}
+      <button onClick={() => {
+        setScore(0)
+        setQuestionCount(0)
+        setIsFinished(false)
+        setSelected(null)
+        setIsCorrect(null)
+        fetchQuestion()
+      }}
         className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors w-full"
       >
-        Try Again
+        {t.tryAgain}
       </button>
     </div>
   </main>
 )
+
+
 return (
   <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
 
      <div className="flex justify-between items-center mb-6">
-       <h1 className="text-2xl font-bold text-gray-800">DMV Practice Quiz</h1>
+       <h1 className="text-2xl font-bold text-gray-800">{t.title}</h1>
 
-    <span className="text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">Question {questionCount} of 10</span>
+    <span className="text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+  {lang === 'en' 
+    ? `${questionCount} of 10`
+    : `${t.questionOf} ${questionCount}`
+  }
+</span>
       </div>
 
       <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
@@ -189,11 +265,11 @@ return (
   {selected && (
     <div className="mt-6 p-4 rounded-lg bg-gray-50 border border-gray-200">
      {/* show correct or wrong message */}
-     <p className="font-bold text-lg mb-2">{isCorrect ? "✅ Correct!" : "❌ Wrong!"}</p>
+     <p className="font-bold text-lg mb-2">{isCorrect ? t.correct : t.wrong}</p>
      <p className="text-gray-600 mb-4">{question?.explanation}</p>
       {/* fetch a brand new question */}
       <button onClick={fetchQuestion}
-      className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">Next Question</button>
+      className="bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors">{t.nextQuestion}</button>
     </div>
     
   )}

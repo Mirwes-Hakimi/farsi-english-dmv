@@ -8,7 +8,18 @@ const openai = new OpenAI({
 
 export async function POST(request: Request) {
   /// get previously asked questions from frontend
-  const { askedQuestions } = await request.json()
+  // get language along with asked questions
+  const { askedQuestions, lang } = await request.json()
+
+
+// map language code to full name for the prompt
+const languageMap: Record<string, string> = {
+  en: 'English',
+  fa: 'Farsi (Dari)',
+  ps: 'Pashto'
+}
+
+const language = languageMap[lang] || 'English'
 
   const avoidList = askedQuestions.length > 0 
     ? `Don NOT repeat these questions: ${askedQuestions.join(' | ')}`
@@ -27,15 +38,16 @@ export async function POST(request: Request) {
         role: "user",
         content: `Generate 1 random multiple choice California DMV practice question.
 ${avoidList}
+Generate the question and all answers in ${language}.
 Vary between: road signs, speed limits, right of way, parking rules, 
 traffic lights, DUI laws, freeway driving, weather conditions.
 
 Return ONLY a JSON object in this exact format:
 {
-  "question": "the question here",
+  "question": "the question here in ${language}",
   "answers": ["option1", "option2", "option3", "option4"],
-  "correct": "the correct answer here",
-  "explanation": "why this is correct"
+  "correct": "the correct answer here in ${language}",
+  "explanation": "why this is correct in ${language}"
 }`
       }
     ]
