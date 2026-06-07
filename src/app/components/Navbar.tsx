@@ -11,9 +11,12 @@ export default function Navbar() {
       <div className="max-w-4xl mx-auto flex items-center justify-between">
         
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold text-blue-600">
-          🚗 DMV Quiz
-        </Link>
+     <Link href="/" className="flex items-center gap-1">
+  <div className="bg-blue-600 text-white font-black text-sm px-2 py-1 rounded-lg">
+    DMV
+  </div>
+  <span className="text-xl font-bold text-gray-800">Quiz</span>
+</Link>
 
         {/* Desktop links — hidden on mobile */}
         <div className="hidden md:flex items-center gap-6">
