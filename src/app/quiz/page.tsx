@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
 interface Question {
@@ -9,7 +9,9 @@ interface Question {
   explanation: string
 }
 
-export default function Quiz(){
+
+function QuizInner(){
+
 // read the lang parameter from the URL
 const searchParams = useSearchParams()
 const lang = searchParams.get('lang') || 'en'
@@ -278,3 +280,22 @@ return (
  </main>
   )
 }
+
+export default function Quiz() {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center">
+        <div className="text-center">
+          <div className="text-6xl mb-6">🚗</div>
+          <h2 className="text-2xl font-bold text-gray-800">Loading...</h2>
+        </div>
+      </main>
+    }>
+      <QuizInner />
+    </Suspense>
+  )
+}
+
+
+
+
