@@ -27,11 +27,11 @@ const translations = {
     nextQuestion: 'Next Question →',
     quizComplete: 'Quiz Complete!',
     youScored: 'You scored',
-    outOf: 'out of 10',
+    outOf: 'out of 46',
     pass: '✅ Pass! You are ready for the DMV test!',
     fail: '❌ Fail. Keep practicing!',
     tryAgain: 'Try Again',
-    questionOf: 'of 10',
+    questionOf: 'of 46',
   },
   fa: {
     title: 'آزمون تمرینی DMV',
@@ -42,12 +42,12 @@ const translations = {
     nextQuestion: 'سوال بعدی ←',
     quizComplete: 'آزمون تمام شد!',
     youScored: 'امتیاز شما',
-    outOf: 'از ۱۰',
+    outOf: 'از ۴۶',
     pass: '✅ قبول شدید! آماده امتحان DMV هستید!',
     fail: '❌ قبول نشدید. بیشتر تمرین کنید!',
     tryAgain: 'دوباره امتحان کنید',
     
-  questionOf: `از ۱۰ :سوال`,  
+  questionOf: `از ۴۶ :سوال`,  
 
 
   },
@@ -60,11 +60,11 @@ const translations = {
     nextQuestion: 'بله پوښتنه ←',
     quizComplete: 'ازموینه بشپړه شوه!',
     youScored: 'ستاسو نمره',
-    outOf: 'له ۱۰ څخه',
+    outOf: 'له ۴۶ څخه',
     pass: '✅ پاس شوئ! د DMV ازموینې لپاره چمتو یاست!',
     fail: '❌ ناکام شوئ. نور تمرین وکړئ!',
     tryAgain: 'بیا هڅه وکړئ',
-    questionOf: 'له ۱۰ څخه',
+    questionOf: 'له ۴۶ څخه',
   }
 }
 
@@ -161,17 +161,14 @@ function handleAnswer(answer: string){
   setIsCorrect(answer === question?.correct)
  
 
-  /// checks against 10 directly since count updates in fetchQuestion
-  if (questionCount === 9)
-      setIsFinished(true)
+ 
 
   
   // increment score if correct
   if(answer === question?.correct)
     setScore(prev => prev + 1)
 
-  if (questionCount + 1 === 10 )
-    setIsFinished(true)
+  if (questionCount === 46 ) setIsFinished(true)
     
   
 
@@ -194,25 +191,81 @@ if (loading) return (
 
 // Results screen
 if (isFinished) return (
-  <main className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
-    <div className="bg-white p-8 rounded-xl shadow-lg text-center max-w-md w-full">
-      <h1 className="text-3xl font-bold mb-4">{t.quizComplete}</h1>
-      <p className="text-xl mb-2">{t.youScored} <span className="font-bold text-blue-600">{score} {t.outOf}</span></p>
-      <p className={`text-lg font-semibold mb-6 ${score >= 7 ? 'text-green-600' : 'text-red-600'}`}>
-        {score >= 7 ? t.pass : t.fail}
-      </p>
-      <button onClick={() => {
-        setScore(0)
-        setQuestionCount(0)
-        setIsFinished(false)
-        setSelected(null)
-        setIsCorrect(null)
-        fetchQuestion()
-      }}
-        className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors w-full"
-      >
-        {t.tryAgain}
-      </button>
+  <main className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+    <div className="bg-white rounded-2xl shadow-xl max-w-sm w-full overflow-hidden">
+      
+      {/* Blue header */}
+      <div className="bg-blue-600 px-6 py-5">
+        <p className="text-blue-200 text-sm font-medium">Session Complete</p>
+        <h1 className="text-white text-2xl font-bold">{t.quizComplete}</h1>
+      </div>
+
+      {/* Score circle */}
+      <div className="flex flex-col items-center py-8">
+        <div className="relative w-32 h-32">
+          <svg className="w-32 h-32 -rotate-90" viewBox="0 0 120 120">
+            {/* Background circle */}
+            <circle cx="60" cy="60" r="50" fill="none" stroke="#e5e7eb" strokeWidth="10"/>
+            {/* Progress circle */}
+            <circle 
+              cx="60" cy="60" r="50" 
+              fill="none" 
+              stroke={score >= 38 ? "#22c55e" : "#ef4444"} 
+              strokeWidth="10"
+              strokeDasharray={`${(score / 46) * 314} 314`}
+              strokeLinecap="round"
+            />
+          </svg>
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <span className={`text-3xl font-bold ${score >= 38 ? 'text-green-600' : 'text-red-500'}`}>
+              {score}
+            </span>
+            <span className="text-gray-400 text-xs">of 46</span>
+          </div>
+        </div>
+
+        {/* Pass/Fail badge */}
+        <div className={`mt-4 px-6 py-1 rounded-full border-2 font-bold text-sm
+          ${score >= 38
+            ? 'border-green-500 text-green-600' 
+            : 'border-red-500 text-red-500'}`}>
+          {score >= 38 ? 'PASSED' : 'FAILED'}
+        </div>
+      </div>
+
+      {/* Score breakdown */}
+      <div className="mx-6 mb-6 border border-gray-100 rounded-xl overflow-hidden">
+        <div className="flex justify-between items-center px-4 py-3 border-b border-gray-100">
+          <span className="text-gray-600">Correct</span>
+          <span className="text-green-600 font-bold">{score}</span>
+        </div>
+        <div className="flex justify-between items-center px-4 py-3 border-b border-gray-100">
+          <span className="text-gray-600">Incorrect</span>
+          <span className="text-red-500 font-bold">{questionCount - score}</span>
+        </div>
+        <div className="flex justify-between items-center px-4 py-3">
+          <span className="text-gray-600">DMV Min.</span>
+          <span className="text-blue-600 font-bold">38 / 46</span>
+        </div>
+      </div>
+
+      {/* Button */}
+      <div className="px-6 pb-6">
+        <button
+          onClick={() => {
+            setScore(0)
+            setQuestionCount(0)
+            setIsFinished(false)
+            setSelected(null)
+            setIsCorrect(null)
+            fetchQuestion()
+          }}
+          className="w-full bg-blue-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors"
+        >
+          {t.tryAgain}
+        </button>
+      </div>
+
     </div>
   </main>
 )
@@ -220,14 +273,14 @@ if (isFinished) return (
 
 return (
   <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
+    <div className="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full">
 
      <div className="flex justify-between items-center mb-6">
        <h1 className="text-2xl font-bold text-gray-800">{t.title}</h1>
 
     <span className="text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
   {lang === 'en' 
-    ? `${questionCount} of 10`
+    ? `${questionCount} of 46`
     : `${t.questionOf} ${questionCount}`
   }
 </span>
@@ -236,7 +289,7 @@ return (
       <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
 
         <div className="bg-blue-600 h-2 rounded-full transition-all"
-        style={{ width:  `${(questionCount / 10) * 100}%`}}>
+        style={{ width:  `${(questionCount / 46) * 100}%`}}>
 
 
         </div>
@@ -244,24 +297,40 @@ return (
     {/*display AI generated question  */}
     <p className="text-lg font-medium text-gray-900 mb-6">{question?.question}</p>
   
-  <div className="flex flex-col gap-3">
+  <div className="flex flex-col gap-3 w-full">
   {/* display each answer as a  button */}
-  {question?.answers.map((answer) => (
+  {question?.answers.map((answer, index) => (
      <button
    key={answer}
    onClick={() => handleAnswer(answer) }
 
    disabled={selected !== null}
-   className={`p-4 rounded-lg text-left font-medium transition-colors border-2
-    ${selected === null ? 'border-gray-200 hover:border-blue-400 hover:bg-blue-50'
+   className={`w-full p-3 rounded-xl text-left font-medium transition-colors border shadow-sm flex items-center gap-3
+    ${selected === null ? 'border-gray-100 hover:border-blue-300 hover:bg-blue-50'
       : answer ===question.correct
       ? 'border-green-500 bg-green-50 text-green-700'
       : selected === answer
       ? 'border-red-500 bg-red-50 text-red-700'
       : 'border-gray-200 text-gray-400'
     }`}
+
    
-   >{answer}</button>
+   >
+    {/* Letter Label */}
+    <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0
+     ${selected === null
+     ? 'bg-gray-100 text-gray-600'
+     : answer === question.correct
+     ?'bg-green-500 text-white'
+     : selected === answer
+     ? 'bg-red-500 text-white'
+     :'bg-gray-100 text-gray-400'
+     }`}>
+      {['A', 'B', 'C', 'D'][index]}
+     </span>
+
+   <span> {answer}</span>
+  </button>
   ))}
   {/* show result after answering */}
   {selected && (
