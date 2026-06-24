@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
+import { track } from '@vercel/analytics';
 
 interface Question {
   question: string
@@ -96,6 +97,7 @@ const [askedQuestions, setAskedQuestions] = useState<string[]>([])
 /// runs once when component mounts or pade loads
 useEffect(() => {
   // call fetchQueion to get AI question immediately
+   track('quiz_started', { language: lang })
   fetchQuestion()
   /// [] run oce on mount never again
 }, [])
@@ -157,23 +159,24 @@ function handleAnswer(answer: string){
   setSelected(answer)
 
   // check if clicked answer matches the correct answer 
-
-  setIsCorrect(answer === question?.correct)
+const correct = answer === question?.correct
+setIsCorrect(correct)
+  // setIsCorrect(answer === question?.correct)
  
+/// compute the final score locally so to not read stale state
+const newScore = correct ? score + 1 : score
+if (correct) setScore(newScore)
 
- 
-
-  
-  // increment score if correct
-  if(answer === question?.correct)
-    setScore(prev => prev + 1)
-
-  if (questionCount === 46 ) setIsFinished(true)
-    
-  
-
+if (questionCount === 46){
+    setIsFinished(true)
+    track('quiz_completed', {
+      score: newScore,
+      total: 46,
+      passed: newScore >= 38,
+      language: lang,
+    })
+  }
 }
-
 
   //if loading is true, show this instead of the quiz 
 
