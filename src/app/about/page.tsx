@@ -19,13 +19,14 @@ export default function About() {
           </p>
 
           <div className="border-t border-gray-200 mt-6 pt-6">
-              <p className="text-gray-500 txt-sm">Built by Mirwes Hakimi</p>
+        
               <a 
-                href="https://github.com/Mirwes-Hakimi"
-                className="text-blue-600 hover:underline text-sm"
-                target="_blank" >   
-                GitHub →
-              </a>
+                href="https://www.kblwebsolutions.com/"
+                 target="_blank"
+                   rel="noopener noreferrer"
+                  >
+                   Built by KBL Web Solutions
+                  </a>
           </div>
             
           </div>

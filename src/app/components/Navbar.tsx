@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Navbar() {
   // tracks if mobile menu is open or closed
@@ -11,11 +12,15 @@ export default function Navbar() {
       <div className="max-w-4xl mx-auto flex items-center justify-between">
         
         {/* Logo */}
-     <Link href="/" className="flex items-center gap-1">
-  <div className="bg-blue-600 text-white font-black text-sm px-2 py-1 rounded-lg">
-    DMV
-  </div>
-  <span className="text-xl font-bold text-gray-800">Quiz</span>
+
+
+<Link href="/" className="flex items-center gap-2">
+  <Image src="/DMVpracticeTest.png" alt="DMV Quiz logo" 
+  width={48} 
+  height={48} 
+  priority
+  className="h-12 w-12 rounded-full object-cover " /> 
+  <span className="font-bold text-gray-800 text-lg hidden sm:inline"> DMV Permit Quiz</span>
 </Link>
 
         {/* Desktop links — hidden on mobile */}
