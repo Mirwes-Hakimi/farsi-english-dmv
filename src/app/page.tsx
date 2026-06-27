@@ -12,7 +12,7 @@ export default function Home() {
                 AI-Powered • Free • California DMV
               </div>
               <h1 className="text-5xl font-bold text-gray-900 mb-6 max-w-2xl leading-tight ">
-                 Pass Your Learner Permit DMV Test on the <span className="text-blue-600">First Try</span>
+                 Pass Your Permit DMV Test on the <span className="text-blue-600">First Try</span>
 
               </h1>
               <p className="text-xl text-gray-500 mb-10 max-w-xl">
@@ -26,15 +26,15 @@ export default function Home() {
   <div className="flex flex-col sm:flex-row gap-3">
     <a href="/quiz?lang=en"
       className="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg text-center">
-       English
+       Start in English
     </a>
    <a href="/quiz?lang=fa"
   className="bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-colors shadow-lg text-center">
-  فارسی / دری
+ شروع به فارسی / دری
 </a>
     <a href="/quiz?lang=ps"
       className="bg-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-purple-700 transition-colors shadow-lg text-center">
-       پښتو
+      پيل کړئ په پښتو
     </a>
   </div>
 
@@ -111,8 +111,8 @@ export default function Home() {
 {/* FOOTER */}
 <footer className="bg-white border-t border-gray-200 py-8 px-4 text-center">
   <p className="text-gray-500 text-sm">
-    Built by <span className="font-semibold text-gray-700">Mirwes Hakimi</span> • 
-    <a href="https://github.com/Mirwes-Hakimi" className="text-blue-600 hover:underline ml-1" target="_blank">GitHub</a>
+    Built by <span className="font-semibold text-gray-700">KBL Web Solutions</span> • 
+    <a href="https://www.kblwebsolutions.com/" className="text-blue-600 hover:underline ml-1" target="_blank">KBL Web Solutions</a>
   </p>
   <p className="text-gray-400 text-xs mt-1">
     AI-Powered California DMV Practice Quiz

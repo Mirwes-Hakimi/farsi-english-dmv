@@ -20,7 +20,7 @@ export default function Navbar() {
   height={48} 
   priority
   className="h-12 w-12 rounded-full object-cover " /> 
-  <span className="font-bold text-gray-800 text-lg hidden sm:inline"> DMV Permit Quiz</span>
+  <span className="font-bold text-gray-800 text-lg"> DMV Permit Quiz</span>
 </Link>
 
         {/* Desktop links — hidden on mobile */}

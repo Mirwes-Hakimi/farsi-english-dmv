@@ -1,0 +1,2814 @@
+{
+  "meta": {
+    "title": "California DMV Permit Practice Question Bank",
+    "source": "California Driver's Handbook, California Department of Motor Vehicles, licensed under CC BY-NC 4.0",
+    "note": "English content verified against the official handbook. Farsi drafted by AI and MUST be reviewed/corrected by a native speaker before publishing. Each question lists the handbook section it is grounded in for easy verification.",
+    "languages": [
+      "en",
+      "fa"
+    ],
+    "total": 100
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "signaling",
+      "source": "Section 5 - Signaling",
+      "question_en": "How far before a turn should you begin signaling?",
+      "question_fa": "چند فوت قبل از پیچیدن باید چراغ راهنما را روشن کنید؟",
+      "answers": [
+        {
+          "en": "At least 100 feet before the turn",
+          "fa": "حداقل ۱۰۰ فوت قبل از پیچ"
+        },
+        {
+          "en": "At least 50 feet before the turn",
+          "fa": "حداقل ۵۰ فوت قبل از پیچ"
+        },
+        {
+          "en": "Only when other cars are nearby",
+          "fa": "فقط وقتی ماشین‌های دیگر نزدیک هستند"
+        },
+        {
+          "en": "Right as you begin the turn",
+          "fa": "درست هنگام شروع پیچیدن"
+        }
+      ],
+      "correct_en": "At least 100 feet before the turn",
+      "explanation_en": "Signal at least 100 feet before you turn, even when you do not see other vehicles around you.",
+      "explanation_fa": "حداقل ۱۰۰ فوت قبل از پیچیدن چراغ راهنما را روشن کنید، حتی اگر ماشینی در اطراف نبینید."
+    },
+    {
+      "id": 2,
+      "topic": "signaling",
+      "source": "Section 5 - Signaling",
+      "question_en": "How many seconds before changing lanes on a freeway should you signal?",
+      "question_fa": "روی بزرگراه، چند ثانیه قبل از تغییر خط باید چراغ راهنما بزنید؟",
+      "answers": [
+        {
+          "en": "At least 5 seconds",
+          "fa": "حداقل ۵ ثانیه"
+        },
+        {
+          "en": "At least 2 seconds",
+          "fa": "حداقل ۲ ثانیه"
+        },
+        {
+          "en": "At least 10 seconds",
+          "fa": "حداقل ۱۰ ثانیه"
+        },
+        {
+          "en": "Signaling is not required on freeways",
+          "fa": "روی بزرگراه چراغ راهنما لازم نیست"
+        }
+      ],
+      "correct_en": "At least 5 seconds",
+      "explanation_en": "On a freeway, signal at least five seconds before you change lanes.",
+      "explanation_fa": "روی بزرگراه، حداقل ۵ ثانیه قبل از تغییر خط چراغ راهنما بزنید."
+    },
+    {
+      "id": 3,
+      "topic": "headlights",
+      "source": "Section 5 - Using Your Headlights",
+      "question_en": "You must dim your high-beam headlights within how many feet of an oncoming vehicle?",
+      "question_fa": "تا چند فوت مانده به یک وسیله نقلیه که از روبرو می‌آید باید نور بالا را کم کنید؟",
+      "answers": [
+        {
+          "en": "Within 500 feet",
+          "fa": "تا ۵۰۰ فوت"
+        },
+        {
+          "en": "Within 100 feet",
+          "fa": "تا ۱۰۰ فوت"
+        },
+        {
+          "en": "Within 1,000 feet",
+          "fa": "تا ۱۰۰۰ فوت"
+        },
+        {
+          "en": "You never need to dim them",
+          "fa": "هرگز لازم نیست کم کنید"
+        }
+      ],
+      "correct_en": "Within 500 feet",
+      "explanation_en": "Dim your high beams to low beams within 500 feet of a vehicle coming toward you, and within 300 feet of a vehicle you are following.",
+      "explanation_fa": "تا ۵۰۰ فوت مانده به وسیله‌ای که از روبرو می‌آید، نور بالا را به نور پایین تغییر دهید؛ و تا ۳۰۰ فوت مانده به وسیله‌ای که دنبال می‌کنید."
+    },
+    {
+      "id": 4,
+      "topic": "headlights",
+      "source": "Section 5 - Using Your Headlights",
+      "question_en": "When you must use windshield wipers because of rain, fog, or snow, what else must you turn on?",
+      "question_fa": "وقتی به دلیل باران، مه یا برف از برف‌پاک‌کن استفاده می‌کنید، چه چیز دیگری را باید روشن کنید؟",
+      "answers": [
+        {
+          "en": "Your low-beam headlights",
+          "fa": "نور پایین چراغ‌ها"
+        },
+        {
+          "en": "Your high-beam headlights",
+          "fa": "نور بالا چراغ‌ها"
+        },
+        {
+          "en": "Only your parking lights",
+          "fa": "فقط چراغ‌های پارک"
+        },
+        {
+          "en": "Your interior lights",
+          "fa": "چراغ‌های داخل ماشین"
+        }
+      ],
+      "correct_en": "Your low-beam headlights",
+      "explanation_en": "If you need wipers due to fog, rain, or snow, you must turn on your low-beam headlights. It is illegal to drive using only parking lights.",
+      "explanation_fa": "اگر به دلیل مه، باران یا برف به برف‌پاک‌کن نیاز دارید، باید نور پایین را روشن کنید. رانندگی فقط با چراغ‌های پارک غیرقانونی است."
+    },
+    {
+      "id": 5,
+      "topic": "speed-limits",
+      "source": "Section 7 - Around Children",
+      "question_en": "What is the speed limit within 500 feet of a school while children are outside?",
+      "question_fa": "تا ۵۰۰ فوتی مدرسه، وقتی بچه‌ها بیرون هستند، حداکثر سرعت مجاز چقدر است؟",
+      "answers": [
+        {
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت"
+        },
+        {
+          "en": "35 mph",
+          "fa": "۳۵ مایل در ساعت"
+        },
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        },
+        {
+          "en": "45 mph",
+          "fa": "۴۵ مایل در ساعت"
+        }
+      ],
+      "correct_en": "25 mph",
+      "explanation_en": "The speed limit is 25 mph within 500 feet of a school while children are outside or crossing the street. Some school zones may be as low as 15 mph.",
+      "explanation_fa": "تا ۵۰۰ فوتی مدرسه وقتی بچه‌ها بیرون هستند یا از خیابان عبور می‌کنند، سرعت مجاز ۲۵ مایل در ساعت است. بعضی مناطق مدرسه ممکن است تا ۱۵ مایل در ساعت باشند."
+    },
+    {
+      "id": 6,
+      "topic": "speed-limits",
+      "source": "Section 7 - Blind Intersections",
+      "question_en": "What is the speed limit at a blind intersection?",
+      "question_fa": "در یک تقاطع کور (بدون دید)، حداکثر سرعت مجاز چقدر است؟",
+      "answers": [
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        },
+        {
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت"
+        },
+        {
+          "en": "10 mph",
+          "fa": "۱۰ مایل در ساعت"
+        },
+        {
+          "en": "30 mph",
+          "fa": "۳۰ مایل در ساعت"
+        }
+      ],
+      "correct_en": "15 mph",
+      "explanation_en": "An intersection is blind if it has no stop signs at any corner. The speed limit there is 15 mph.",
+      "explanation_fa": "تقاطعی که در هیچ گوشه‌ای علامت توقف ندارد، کور محسوب می‌شود. سرعت مجاز در آن ۱۵ مایل در ساعت است."
+    },
+    {
+      "id": 7,
+      "topic": "speed-limits",
+      "source": "Section 7 - Alleys",
+      "question_en": "What is the speed limit in an alley?",
+      "question_fa": "در کوچه، حداکثر سرعت مجاز چقدر است؟",
+      "answers": [
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        },
+        {
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت"
+        },
+        {
+          "en": "20 mph",
+          "fa": "۲۰ مایل در ساعت"
+        },
+        {
+          "en": "5 mph",
+          "fa": "۵ مایل در ساعت"
+        }
+      ],
+      "correct_en": "15 mph",
+      "explanation_en": "The speed limit in an alley is 15 mph.",
+      "explanation_fa": "سرعت مجاز در کوچه ۱۵ مایل در ساعت است."
+    },
+    {
+      "id": 8,
+      "topic": "speed-limits",
+      "source": "Section 7 - Business or Residential Districts",
+      "question_en": "Unless otherwise posted, what is the speed limit in a business or residential district?",
+      "question_fa": "اگر علامت دیگری نباشد، در منطقه تجاری یا مسکونی سرعت مجاز چقدر است؟",
+      "answers": [
+        {
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت"
+        },
+        {
+          "en": "35 mph",
+          "fa": "۳۵ مایل در ساعت"
+        },
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        },
+        {
+          "en": "45 mph",
+          "fa": "۴۵ مایل در ساعت"
+        }
+      ],
+      "correct_en": "25 mph",
+      "explanation_en": "In a business or residential district the speed limit is 25 mph unless otherwise posted.",
+      "explanation_fa": "در منطقه تجاری یا مسکونی، اگر علامت دیگری نباشد، سرعت مجاز ۲۵ مایل در ساعت است."
+    },
+    {
+      "id": 9,
+      "topic": "speed-limits",
+      "source": "Section 8 - Manage Your Speed",
+      "question_en": "What is the ideal maximum speed limit on most California highways unless otherwise posted?",
+      "question_fa": "اگر علامت دیگری نباشد، حداکثر سرعت مطلوب در بیشتر بزرگراه‌های کالیفرنیا چقدر است؟",
+      "answers": [
+        {
+          "en": "65 mph",
+          "fa": "۶۵ مایل در ساعت"
+        },
+        {
+          "en": "55 mph",
+          "fa": "۵۵ مایل در ساعت"
+        },
+        {
+          "en": "70 mph",
+          "fa": "۷۰ مایل در ساعت"
+        },
+        {
+          "en": "75 mph",
+          "fa": "۷۵ مایل در ساعت"
+        }
+      ],
+      "correct_en": "65 mph",
+      "explanation_en": "Unless otherwise posted, the ideal maximum speed on most California highways is 65 mph. It is 55 mph on a two-lane undivided highway and for vehicles towing trailers.",
+      "explanation_fa": "اگر علامت دیگری نباشد، حداکثر سرعت مطلوب در بیشتر بزرگراه‌های کالیفرنیا ۶۵ مایل در ساعت است. در بزرگراه دوبانده بدون مانع و برای خودروهای یدک‌کش ۵۵ مایل در ساعت است."
+    },
+    {
+      "id": 10,
+      "topic": "following-distance",
+      "source": "Section 8 - Tailgating",
+      "question_en": "What rule should you use to keep a safe following distance?",
+      "question_fa": "برای حفظ فاصله ایمن با ماشین جلویی از چه قانونی باید استفاده کنید؟",
+      "answers": [
+        {
+          "en": "The three-second rule",
+          "fa": "قانون سه ثانیه"
+        },
+        {
+          "en": "The one-second rule",
+          "fa": "قانون یک ثانیه"
+        },
+        {
+          "en": "The ten-second rule",
+          "fa": "قانون ده ثانیه"
+        },
+        {
+          "en": "The half-second rule",
+          "fa": "قانون نیم ثانیه"
+        }
+      ],
+      "correct_en": "The three-second rule",
+      "explanation_en": "Use the three-second rule to keep a safe following distance so you have time to react if the driver ahead brakes suddenly.",
+      "explanation_fa": "از قانون سه ثانیه استفاده کنید تا فاصله ایمن داشته باشید و اگر راننده جلویی ناگهان ترمز کرد، فرصت واکنش داشته باشید."
+    },
+    {
+      "id": 11,
+      "topic": "dui",
+      "source": "Section 9 - BAC Limits",
+      "question_en": "If you are 21 or older, what blood alcohol concentration (BAC) makes it illegal to drive?",
+      "question_fa": "اگر ۲۱ سال یا بیشتر دارید، با چه میزان الکل خون (BAC) رانندگی غیرقانونی است؟",
+      "answers": [
+        {
+          "en": "0.08% or higher",
+          "fa": "۰.۰۸٪ یا بیشتر"
+        },
+        {
+          "en": "0.05% or higher",
+          "fa": "۰.۰۵٪ یا بیشتر"
+        },
+        {
+          "en": "0.10% or higher",
+          "fa": "۰.۱۰٪ یا بیشتر"
+        },
+        {
+          "en": "0.01% or higher",
+          "fa": "۰.۰۱٪ یا بیشتر"
+        }
+      ],
+      "correct_en": "0.08% or higher",
+      "explanation_en": "For drivers over 21, it is illegal to drive with a BAC of 0.08% or higher.",
+      "explanation_fa": "برای رانندگان بالای ۲۱ سال، رانندگی با میزان الکل خون ۰.۰۸٪ یا بیشتر غیرقانونی است."
+    },
+    {
+      "id": 12,
+      "topic": "dui",
+      "source": "Section 9 - BAC Limits",
+      "question_en": "If you are under 21, what BAC makes it illegal to drive?",
+      "question_fa": "اگر زیر ۲۱ سال هستید، با چه میزان الکل خون (BAC) رانندگی غیرقانونی است؟",
+      "answers": [
+        {
+          "en": "0.01% or higher",
+          "fa": "۰.۰۱٪ یا بیشتر"
+        },
+        {
+          "en": "0.08% or higher",
+          "fa": "۰.۰۸٪ یا بیشتر"
+        },
+        {
+          "en": "0.04% or higher",
+          "fa": "۰.۰۴٪ یا بیشتر"
+        },
+        {
+          "en": "0.05% or higher",
+          "fa": "۰.۰۵٪ یا بیشتر"
+        }
+      ],
+      "correct_en": "0.01% or higher",
+      "explanation_en": "If you are under 21, it is illegal to drive with a BAC of 0.01% or higher.",
+      "explanation_fa": "اگر زیر ۲۱ سال هستید، رانندگی با میزان الکل خون ۰.۰۱٪ یا بیشتر غیرقانونی است."
+    },
+    {
+      "id": 13,
+      "topic": "dui",
+      "source": "Section 9 - DUI Arrests",
+      "question_en": "What happens if you refuse a blood or urine test when an officer suspects you of DUI?",
+      "question_fa": "اگر افسر به شما مظنون به رانندگی در حالت مستی باشد و شما از آزمایش خون یا ادرار خودداری کنید، چه می‌شود؟",
+      "answers": [
+        {
+          "en": "DMV will suspend or revoke your driving privilege",
+          "fa": "اداره راهنمایی و رانندگی گواهینامه شما را تعلیق یا باطل می‌کند"
+        },
+        {
+          "en": "Nothing, you have the right to refuse",
+          "fa": "هیچ چیز، شما حق امتناع دارید"
+        },
+        {
+          "en": "You only pay a small fine",
+          "fa": "فقط جریمه کوچکی می‌پردازید"
+        },
+        {
+          "en": "You get a warning",
+          "fa": "یک اخطار می‌گیرید"
+        }
+      ],
+      "correct_en": "DMV will suspend or revoke your driving privilege",
+      "explanation_en": "By driving in California you consent to testing. If you refuse a blood or urine test, DMV will suspend or revoke your driving privilege for one year.",
+      "explanation_fa": "با رانندگی در کالیفرنیا، شما رضایت به آزمایش می‌دهید. اگر از آزمایش خون یا ادرار خودداری کنید، اداره راهنمایی و رانندگی گواهینامه شما را برای یک سال تعلیق یا باطل می‌کند."
+    },
+    {
+      "id": 14,
+      "topic": "dui",
+      "source": "Section 9 - Open Container",
+      "question_en": "If you carry an opened alcohol container in your vehicle, where must it be kept?",
+      "question_fa": "اگر ظرف باز الکل در خودرو حمل می‌کنید، باید کجا نگه داشته شود؟",
+      "answers": [
+        {
+          "en": "In the trunk or where passengers do not sit",
+          "fa": "در صندوق عقب یا جایی که مسافران نمی‌نشینند"
+        },
+        {
+          "en": "In the glove box",
+          "fa": "در داشبورد (جعبه دستکش)"
+        },
+        {
+          "en": "Anywhere, as long as the cap is on",
+          "fa": "هر جایی، تا وقتی درش بسته است"
+        },
+        {
+          "en": "On the passenger seat",
+          "fa": "روی صندلی مسافر"
+        }
+      ],
+      "correct_en": "In the trunk or where passengers do not sit",
+      "explanation_en": "An opened alcohol container must be kept in the trunk or a place where passengers do not sit. It is illegal to keep an open container in the glove box.",
+      "explanation_fa": "ظرف باز الکل باید در صندوق عقب یا جایی که مسافران نمی‌نشینند نگه داشته شود. نگه داشتن ظرف باز در داشبورد غیرقانونی است."
+    },
+    {
+      "id": 15,
+      "topic": "dui",
+      "source": "Section 9 - DUI Convictions",
+      "question_en": "How long does a DUI conviction stay on your driver's record?",
+      "question_fa": "محکومیت رانندگی در حالت مستی چند سال در سابقه رانندگی شما می‌ماند؟",
+      "answers": [
+        {
+          "en": "10 years",
+          "fa": "۱۰ سال"
+        },
+        {
+          "en": "3 years",
+          "fa": "۳ سال"
+        },
+        {
+          "en": "5 years",
+          "fa": "۵ سال"
+        },
+        {
+          "en": "1 year",
+          "fa": "۱ سال"
+        }
+      ],
+      "correct_en": "10 years",
+      "explanation_en": "All DUI convictions remain on your driver's record for 10 years.",
+      "explanation_fa": "تمام محکومیت‌های رانندگی در حالت مستی به مدت ۱۰ سال در سابقه رانندگی شما می‌مانند."
+    },
+    {
+      "id": 16,
+      "topic": "right-of-way",
+      "source": "Section 7 - Intersections",
+      "question_en": "At an intersection without STOP or YIELD signs, if you and another vehicle arrive at the same time, who has the right-of-way?",
+      "question_fa": "در تقاطعی بدون علامت توقف یا تسلیم، اگر شما و خودروی دیگری همزمان برسید، حق تقدم با کیست؟",
+      "answers": [
+        {
+          "en": "The vehicle on your right",
+          "fa": "خودرویی که سمت راست شماست"
+        },
+        {
+          "en": "The vehicle on your left",
+          "fa": "خودرویی که سمت چپ شماست"
+        },
+        {
+          "en": "The larger vehicle",
+          "fa": "خودروی بزرگ‌تر"
+        },
+        {
+          "en": "The faster vehicle",
+          "fa": "خودروی سریع‌تر"
+        }
+      ],
+      "correct_en": "The vehicle on your right",
+      "explanation_en": "If a vehicle reaches the intersection at the same time as you, give the right-of-way to the vehicle on your right.",
+      "explanation_fa": "اگر خودرویی همزمان با شما به تقاطع برسد، حق تقدم را به خودروی سمت راست خود بدهید."
+    },
+    {
+      "id": 17,
+      "topic": "right-of-way",
+      "source": "Section 7 - Mountain Roads",
+      "question_en": "Two vehicles meet on a steep, narrow mountain road and neither can pass. Who has the right-of-way?",
+      "question_fa": "دو خودرو در یک جاده کوهستانی باریک و شیب‌دار به هم می‌رسند و هیچ‌کدام نمی‌توانند عبور کنند. حق تقدم با کیست؟",
+      "answers": [
+        {
+          "en": "The vehicle facing uphill",
+          "fa": "خودرویی که رو به بالا (سربالایی) است"
+        },
+        {
+          "en": "The vehicle facing downhill",
+          "fa": "خودرویی که رو به پایین (سرازیری) است"
+        },
+        {
+          "en": "The vehicle that honks first",
+          "fa": "خودرویی که اول بوق می‌زند"
+        },
+        {
+          "en": "The larger vehicle",
+          "fa": "خودروی بزرگ‌تر"
+        }
+      ],
+      "correct_en": "The vehicle facing uphill",
+      "explanation_en": "On a steep narrow road where neither can pass, the vehicle facing uphill has the right-of-way. The downhill vehicle has more control backing up and should back up.",
+      "explanation_fa": "در جاده باریک و شیب‌دار که هیچ‌کدام نمی‌توانند عبور کنند، خودرویی که رو به بالاست حق تقدم دارد. خودروی رو به پایین هنگام عقب رفتن کنترل بیشتری دارد و باید عقب برود."
+    },
+    {
+      "id": 18,
+      "topic": "signals",
+      "source": "Section 7 - Traffic Signals",
+      "question_en": "What should you do at a red arrow signal?",
+      "question_fa": "در چراغ فلش قرمز چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Stop and do not turn until a green signal appears",
+          "fa": "توقف کنید و تا ظاهر شدن چراغ سبز نپیچید"
+        },
+        {
+          "en": "Turn right after stopping",
+          "fa": "بعد از توقف به راست بپیچید"
+        },
+        {
+          "en": "Proceed with caution",
+          "fa": "با احتیاط ادامه دهید"
+        },
+        {
+          "en": "Yield then turn",
+          "fa": "تسلیم شوید سپس بپیچید"
+        }
+      ],
+      "correct_en": "Stop and do not turn until a green signal appears",
+      "explanation_en": "A red arrow means STOP. Do not turn at a red arrow. Remain stopped until a green light or green arrow appears.",
+      "explanation_fa": "فلش قرمز یعنی توقف. در فلش قرمز نپیچید. تا ظاهر شدن چراغ سبز یا فلش سبز متوقف بمانید."
+    },
+    {
+      "id": 19,
+      "topic": "signals",
+      "source": "Section 7 - Traffic Light Not Working",
+      "question_en": "What should you do when a traffic light is not working at all?",
+      "question_fa": "وقتی چراغ راهنمایی اصلاً کار نمی‌کند چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Stop as if all directions have STOP signs",
+          "fa": "طوری توقف کنید که انگار همه جهت‌ها علامت توقف دارند"
+        },
+        {
+          "en": "Drive through without stopping",
+          "fa": "بدون توقف عبور کنید"
+        },
+        {
+          "en": "Only the larger road stops",
+          "fa": "فقط جاده بزرگ‌تر توقف می‌کند"
+        },
+        {
+          "en": "Speed up to clear it quickly",
+          "fa": "سرعت بگیرید تا زود رد شوید"
+        }
+      ],
+      "correct_en": "Stop as if all directions have STOP signs",
+      "explanation_en": "When a traffic light is not working, stop as if the intersection is controlled by STOP signs in all directions, then proceed cautiously when safe.",
+      "explanation_fa": "وقتی چراغ راهنمایی کار نمی‌کند، طوری توقف کنید که انگار تقاطع در همه جهت‌ها علامت توقف دارد، سپس وقتی ایمن بود با احتیاط حرکت کنید."
+    },
+    {
+      "id": 20,
+      "topic": "school-bus",
+      "source": "Section 7 - Around Children",
+      "question_en": "A school bus ahead of you is flashing red lights. What must you do?",
+      "question_fa": "اتوبوس مدرسه جلوی شما چراغ‌های قرمز چشمک‌زن روشن کرده است. چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Stop until the red lights stop flashing",
+          "fa": "توقف کنید تا چراغ‌های قرمز خاموش شوند"
+        },
+        {
+          "en": "Slow down but keep moving",
+          "fa": "آهسته کنید اما به حرکت ادامه دهید"
+        },
+        {
+          "en": "Pass quickly on the left",
+          "fa": "سریع از سمت چپ عبور کنید"
+        },
+        {
+          "en": "Honk and continue",
+          "fa": "بوق بزنید و ادامه دهید"
+        }
+      ],
+      "correct_en": "Stop until the red lights stop flashing",
+      "explanation_en": "When a school bus flashes red lights, you must stop from either direction until the children are safely across and the lights stop flashing. Failing to stop can mean a fine up to $1,000.",
+      "explanation_fa": "وقتی اتوبوس مدرسه چراغ قرمز چشمک‌زن دارد، باید از هر دو جهت توقف کنید تا بچه‌ها با ایمنی عبور کنند و چراغ‌ها خاموش شوند. عدم توقف می‌تواند تا ۱۰۰۰ دلار جریمه داشته باشد."
+    },
+    {
+      "id": 21,
+      "topic": "railroad",
+      "source": "Section 7 - Near Railroad Tracks",
+      "question_en": "When a train is coming and warning devices are active, how far from the nearest track must you stop?",
+      "question_fa": "وقتی قطار در حال آمدن است و دستگاه‌های هشدار فعال هستند، باید چند فوت مانده به نزدیک‌ترین ریل توقف کنید؟",
+      "answers": [
+        {
+          "en": "At least 15 feet",
+          "fa": "حداقل ۱۵ فوت"
+        },
+        {
+          "en": "At least 5 feet",
+          "fa": "حداقل ۵ فوت"
+        },
+        {
+          "en": "At least 50 feet",
+          "fa": "حداقل ۵۰ فوت"
+        },
+        {
+          "en": "At least 100 feet",
+          "fa": "حداقل ۱۰۰ فوت"
+        }
+      ],
+      "correct_en": "At least 15 feet",
+      "explanation_en": "When warned that a train is coming, stop at least 15 feet from the nearest track. Do not proceed until the red lights stop flashing.",
+      "explanation_fa": "وقتی هشدار آمدن قطار داده می‌شود، حداقل ۱۵ فوت مانده به نزدیک‌ترین ریل توقف کنید. تا خاموش شدن چراغ‌های قرمز حرکت نکنید."
+    },
+    {
+      "id": 22,
+      "topic": "parking",
+      "source": "Section 6 - Colored Curbs",
+      "question_en": "What does a red painted curb mean?",
+      "question_fa": "جدول (حاشیه) رنگ‌شده قرمز به چه معناست؟",
+      "answers": [
+        {
+          "en": "No stopping, standing, or parking",
+          "fa": "توقف، ایستادن یا پارک ممنوع"
+        },
+        {
+          "en": "Loading and unloading only",
+          "fa": "فقط بار زدن و خالی کردن"
+        },
+        {
+          "en": "Parking for a limited time",
+          "fa": "پارک برای مدت محدود"
+        },
+        {
+          "en": "Passenger drop-off only",
+          "fa": "فقط پیاده کردن مسافر"
+        }
+      ],
+      "correct_en": "No stopping, standing, or parking",
+      "explanation_en": "A red curb means no stopping, standing, or parking. Buses may stop at a red zone marked for buses only.",
+      "explanation_fa": "جدول قرمز یعنی توقف، ایستادن یا پارک ممنوع. اتوبوس‌ها می‌توانند در منطقه قرمزی که فقط برای اتوبوس علامت‌گذاری شده توقف کنند."
+    },
+    {
+      "id": 23,
+      "topic": "parking",
+      "source": "Section 6 - Illegal Parking",
+      "question_en": "How close to a fire hydrant are you prohibited from parking?",
+      "question_fa": "تا چند فوتی شیر آتش‌نشانی پارک کردن ممنوع است؟",
+      "answers": [
+        {
+          "en": "Within 15 feet",
+          "fa": "تا ۱۵ فوت"
+        },
+        {
+          "en": "Within 5 feet",
+          "fa": "تا ۵ فوت"
+        },
+        {
+          "en": "Within 25 feet",
+          "fa": "تا ۲۵ فوت"
+        },
+        {
+          "en": "Within 10 feet",
+          "fa": "تا ۱۰ فوت"
+        }
+      ],
+      "correct_en": "Within 15 feet",
+      "explanation_en": "Never park within 15 feet of a fire hydrant or fire station driveway.",
+      "explanation_fa": "هرگز تا ۱۵ فوتی شیر آتش‌نشانی یا ورودی ایستگاه آتش‌نشانی پارک نکنید."
+    },
+    {
+      "id": 24,
+      "topic": "emergency-vehicles",
+      "source": "Section 7 - Emergency Vehicles",
+      "question_en": "What must you do when an emergency vehicle approaches using a siren and red lights?",
+      "question_fa": "وقتی یک خودروی اورژانس با آژیر و چراغ قرمز نزدیک می‌شود چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Pull to the right edge and stop until it passes",
+          "fa": "به سمت راست جاده بروید و تا عبور آن توقف کنید"
+        },
+        {
+          "en": "Speed up to get out of the way",
+          "fa": "سرعت بگیرید تا از سر راه کنار بروید"
+        },
+        {
+          "en": "Stop immediately in your lane",
+          "fa": "فوراً در خط خودتان توقف کنید"
+        },
+        {
+          "en": "Continue at the same speed",
+          "fa": "با همان سرعت ادامه دهید"
+        }
+      ],
+      "correct_en": "Pull to the right edge and stop until it passes",
+      "explanation_en": "Give the right-of-way to emergency vehicles using a siren and red lights. Drive to the right edge of the road and stop until they pass.",
+      "explanation_fa": "به خودروهای اورژانس که از آژیر و چراغ قرمز استفاده می‌کنند حق تقدم بدهید. به لبه راست جاده بروید و تا عبور آن‌ها توقف کنید."
+    },
+    {
+      "id": 25,
+      "topic": "insurance",
+      "source": "Section 10 - Reporting a Collision",
+      "question_en": "Within how many days must you report a collision to DMV if it caused over $1,000 in damage or any injury?",
+      "question_fa": "اگر تصادفی بیش از ۱۰۰۰ دلار خسارت یا هر جراحتی ایجاد کند، ظرف چند روز باید آن را به اداره راهنمایی و رانندگی گزارش دهید؟",
+      "answers": [
+        {
+          "en": "Within 10 days",
+          "fa": "ظرف ۱۰ روز"
+        },
+        {
+          "en": "Within 24 hours",
+          "fa": "ظرف ۲۴ ساعت"
+        },
+        {
+          "en": "Within 30 days",
+          "fa": "ظرف ۳۰ روز"
+        },
+        {
+          "en": "Within 5 days",
+          "fa": "ظرف ۵ روز"
+        }
+      ],
+      "correct_en": "Within 10 days",
+      "explanation_en": "You must report a collision to DMV within 10 days if it caused more than $1,000 in property damage or anyone was injured or killed.",
+      "explanation_fa": "اگر تصادفی بیش از ۱۰۰۰ دلار خسارت مالی ایجاد کند یا کسی مجروح یا کشته شود، باید ظرف ۱۰ روز آن را به اداره راهنمایی و رانندگی گزارش دهید."
+    },
+    {
+      "id": 26,
+      "topic": "lane-markings",
+      "source": "Section 6 - Lane Markings",
+      "question_en": "What does a single solid yellow line in the center of the road mean?",
+      "question_fa": "یک خط زرد ممتد در وسط جاده به چه معناست؟",
+      "answers": [
+        {
+          "en": "It marks the center of a two-way road; do not pass when it is on your side",
+          "fa": "وسط یک جاده دوطرفه را مشخص می‌کند؛ وقتی سمت شماست سبقت نگیرید"
+        },
+        {
+          "en": "You may always pass",
+          "fa": "همیشه می‌توانید سبقت بگیرید"
+        },
+        {
+          "en": "It separates same-direction lanes",
+          "fa": "خطوط هم‌جهت را جدا می‌کند"
+        },
+        {
+          "en": "It means the road is one-way",
+          "fa": "یعنی جاده یک‌طرفه است"
+        }
+      ],
+      "correct_en": "It marks the center of a two-way road; do not pass when it is on your side",
+      "explanation_en": "A single solid yellow line marks the center of a two-way road. Do not pass if there is a solid yellow line on your side.",
+      "explanation_fa": "یک خط زرد ممتد وسط جاده دوطرفه را مشخص می‌کند. اگر خط زرد ممتد سمت شما باشد سبقت نگیرید."
+    },
+    {
+      "id": 27,
+      "topic": "lane-markings",
+      "source": "Section 6 - Broken Yellow Line",
+      "question_en": "What does a broken yellow line next to your lane mean?",
+      "question_fa": "خط زرد بریده‌بریده کنار خط شما به چه معناست؟",
+      "answers": [
+        {
+          "en": "You may pass when it is safe",
+          "fa": "وقتی ایمن است می‌توانید سبقت بگیرید"
+        },
+        {
+          "en": "Passing is never allowed",
+          "fa": "سبقت هرگز مجاز نیست"
+        },
+        {
+          "en": "It marks a bike lane",
+          "fa": "خط دوچرخه را مشخص می‌کند"
+        },
+        {
+          "en": "It marks a one-way street",
+          "fa": "خیابان یک‌طرفه را مشخص می‌کند"
+        }
+      ],
+      "correct_en": "You may pass when it is safe",
+      "explanation_en": "A broken yellow line means you may pass if the broken line is next to your driving lane, but only when it is safe.",
+      "explanation_fa": "خط زرد بریده‌بریده یعنی اگر خط بریده کنار خط رانندگی شما باشد می‌توانید سبقت بگیرید، اما فقط وقتی ایمن است."
+    },
+    {
+      "id": 28,
+      "topic": "lane-markings",
+      "source": "Section 6 - Double Solid White Lines",
+      "question_en": "What should you do at double solid white lines?",
+      "question_fa": "در خطوط سفید ممتد دوتایی چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Never change lanes across them",
+          "fa": "هرگز از روی آن‌ها تغییر خط ندهید"
+        },
+        {
+          "en": "Cross them freely",
+          "fa": "آزادانه از آن‌ها عبور کنید"
+        },
+        {
+          "en": "Use them to pass",
+          "fa": "از آن‌ها برای سبقت استفاده کنید"
+        },
+        {
+          "en": "Stop on them",
+          "fa": "روی آن‌ها توقف کنید"
+        }
+      ],
+      "correct_en": "Never change lanes across them",
+      "explanation_en": "Never change lanes over double solid white lines. Wait until you see a single broken white line.",
+      "explanation_fa": "هرگز از روی خطوط سفید ممتد دوتایی تغییر خط ندهید. صبر کنید تا یک خط سفید بریده ببینید."
+    },
+    {
+      "id": 29,
+      "topic": "turns",
+      "source": "Section 6 - U-Turn",
+      "question_en": "Where is it always illegal to make a U-turn?",
+      "question_fa": "در کجا دور زدن (U) همیشه غیرقانونی است؟",
+      "answers": [
+        {
+          "en": "In front of a fire station",
+          "fa": "جلوی ایستگاه آتش‌نشانی"
+        },
+        {
+          "en": "On a residential street",
+          "fa": "در خیابان مسکونی"
+        },
+        {
+          "en": "At a green light",
+          "fa": "در چراغ سبز"
+        },
+        {
+          "en": "Across a double yellow line",
+          "fa": "از روی خط زرد دوتایی"
+        }
+      ],
+      "correct_en": "In front of a fire station",
+      "explanation_en": "Never make a U-turn in front of a fire station, and never use a fire station driveway to turn around.",
+      "explanation_fa": "هرگز جلوی ایستگاه آتش‌نشانی دور نزنید و هرگز از ورودی ایستگاه آتش‌نشانی برای برگشتن استفاده نکنید."
+    },
+    {
+      "id": 30,
+      "topic": "turns",
+      "source": "Section 6 - U-Turn",
+      "question_en": "In a residential district, you may make a U-turn only when no vehicles are approaching within how many feet?",
+      "question_fa": "در منطقه مسکونی، فقط زمانی می‌توانید دور بزنید که هیچ خودرویی تا چند فوتی در حال نزدیک شدن نباشد؟",
+      "answers": [
+        {
+          "en": "200 feet",
+          "fa": "۲۰۰ فوت"
+        },
+        {
+          "en": "100 feet",
+          "fa": "۱۰۰ فوت"
+        },
+        {
+          "en": "50 feet",
+          "fa": "۵۰ فوت"
+        },
+        {
+          "en": "300 feet",
+          "fa": "۳۰۰ فوت"
+        }
+      ],
+      "correct_en": "200 feet",
+      "explanation_en": "In a residential district you may make a U-turn if no vehicles are approaching within 200 feet.",
+      "explanation_fa": "در منطقه مسکونی اگر هیچ خودرویی تا ۲۰۰ فوتی در حال نزدیک شدن نباشد می‌توانید دور بزنید."
+    },
+    {
+      "id": 31,
+      "topic": "passing",
+      "source": "Section 6 - Passing",
+      "question_en": "You may not pass within how many feet of an intersection, bridge, tunnel, or railroad crossing?",
+      "question_fa": "تا چند فوتی تقاطع، پل، تونل یا گذرگاه راه‌آهن نمی‌توانید سبقت بگیرید؟",
+      "answers": [
+        {
+          "en": "100 feet",
+          "fa": "۱۰۰ فوت"
+        },
+        {
+          "en": "50 feet",
+          "fa": "۵۰ فوت"
+        },
+        {
+          "en": "200 feet",
+          "fa": "۲۰۰ فوت"
+        },
+        {
+          "en": "25 feet",
+          "fa": "۲۵ فوت"
+        }
+      ],
+      "correct_en": "100 feet",
+      "explanation_en": "Do not pass within 100 feet of an intersection, bridge, tunnel, railroad crossing, or other hazardous area.",
+      "explanation_fa": "تا ۱۰۰ فوتی تقاطع، پل، تونل، گذرگاه راه‌آهن یا منطقه خطرناک دیگر سبقت نگیرید."
+    },
+    {
+      "id": 32,
+      "topic": "passing",
+      "source": "Section 6 - How to Pass",
+      "question_en": "Driving off the paved part of the road to pass another vehicle is:",
+      "question_fa": "رانندگی از قسمت غیرآسفالت جاده برای سبقت از خودروی دیگر:",
+      "answers": [
+        {
+          "en": "Never allowed",
+          "fa": "هرگز مجاز نیست"
+        },
+        {
+          "en": "Allowed if you signal",
+          "fa": "اگر چراغ بزنید مجاز است"
+        },
+        {
+          "en": "Allowed on highways",
+          "fa": "در بزرگراه‌ها مجاز است"
+        },
+        {
+          "en": "Allowed at low speed",
+          "fa": "با سرعت کم مجاز است"
+        }
+      ],
+      "correct_en": "Never allowed",
+      "explanation_en": "Never drive off the paved or main-traveled part of the road to pass.",
+      "explanation_fa": "هرگز برای سبقت از قسمت آسفالت‌شده یا اصلی جاده خارج نشوید."
+    },
+    {
+      "id": 33,
+      "topic": "passing",
+      "source": "Section 6 - How to Pass",
+      "question_en": "When may you legally pass another vehicle on the right?",
+      "question_fa": "چه زمانی می‌توانید قانوناً از سمت راست خودروی دیگر سبقت بگیرید؟",
+      "answers": [
+        {
+          "en": "When there are two or more lanes in your direction",
+          "fa": "وقتی دو یا چند خط در جهت شما وجود دارد"
+        },
+        {
+          "en": "Never",
+          "fa": "هرگز"
+        },
+        {
+          "en": "Only on mountain roads",
+          "fa": "فقط در جاده‌های کوهستانی"
+        },
+        {
+          "en": "Only at night",
+          "fa": "فقط شب‌ها"
+        }
+      ],
+      "correct_en": "When there are two or more lanes in your direction",
+      "explanation_en": "You may pass on the right only when the road has two or more lanes in your direction, when the driver ahead is turning left and you can safely pass, or on a one-way street.",
+      "explanation_fa": "فقط زمانی می‌توانید از راست سبقت بگیرید که جاده دو یا چند خط در جهت شما داشته باشد، یا راننده جلویی به چپ بپیچد و بتوانید با ایمنی عبور کنید، یا در خیابان یک‌طرفه."
+    },
+    {
+      "id": 34,
+      "topic": "merging",
+      "source": "Section 6 - Merging",
+      "question_en": "When merging onto a highway, who has the right-of-way?",
+      "question_fa": "هنگام ورود به بزرگراه، حق تقدم با کیست؟",
+      "answers": [
+        {
+          "en": "The traffic already on the highway",
+          "fa": "ترافیکی که از قبل روی بزرگراه است"
+        },
+        {
+          "en": "The merging vehicle",
+          "fa": "خودرویی که در حال ورود است"
+        },
+        {
+          "en": "Whoever is faster",
+          "fa": "هر کس سریع‌تر است"
+        },
+        {
+          "en": "The larger vehicle",
+          "fa": "خودروی بزرگ‌تر"
+        }
+      ],
+      "correct_en": "The traffic already on the highway",
+      "explanation_en": "Highway traffic has the right-of-way. Merge when it is safe and try not to stop on the on-ramp.",
+      "explanation_fa": "ترافیک بزرگراه حق تقدم دارد. وقتی ایمن بود وارد شوید و سعی کنید روی رمپ ورودی توقف نکنید."
+    },
+    {
+      "id": 35,
+      "topic": "signs",
+      "source": "Section 7 - Signs",
+      "question_en": "What does a red and white triangular YIELD sign require you to do?",
+      "question_fa": "علامت مثلثی قرمز و سفید «تسلیم» (YIELD) از شما می‌خواهد چه کار کنید؟",
+      "answers": [
+        {
+          "en": "Slow down and be ready to stop for others",
+          "fa": "آهسته کنید و آماده توقف برای دیگران باشید"
+        },
+        {
+          "en": "Come to a full stop always",
+          "fa": "همیشه کاملاً توقف کنید"
+        },
+        {
+          "en": "Speed up to merge",
+          "fa": "برای ادغام سرعت بگیرید"
+        },
+        {
+          "en": "Turn right only",
+          "fa": "فقط به راست بپیچید"
+        }
+      ],
+      "correct_en": "Slow down and be ready to stop for others",
+      "explanation_en": "A YIELD sign means slow down and be ready to stop to let any vehicle, bicyclist, or pedestrian pass before you proceed.",
+      "explanation_fa": "علامت تسلیم یعنی آهسته کنید و آماده توقف باشید تا هر خودرو، دوچرخه‌سوار یا عابر پیاده قبل از شما عبور کند."
+    },
+    {
+      "id": 36,
+      "topic": "signs",
+      "source": "Section 7 - Signs",
+      "question_en": "What does a five-sided (pentagon) sign indicate?",
+      "question_fa": "علامت پنج‌ضلعی نشان‌دهنده چیست؟",
+      "answers": [
+        {
+          "en": "You are near a school",
+          "fa": "نزدیک یک مدرسه هستید"
+        },
+        {
+          "en": "A railroad crossing",
+          "fa": "گذرگاه راه‌آهن"
+        },
+        {
+          "en": "A hospital ahead",
+          "fa": "بیمارستان در پیش است"
+        },
+        {
+          "en": "A dead end",
+          "fa": "بن‌بست"
+        }
+      ],
+      "correct_en": "You are near a school",
+      "explanation_en": "A five-sided sign means you are near a school. Drive slowly and stop for children in the crosswalk.",
+      "explanation_fa": "علامت پنج‌ضلعی یعنی نزدیک مدرسه هستید. آهسته برانید و برای بچه‌ها در گذرگاه عابر توقف کنید."
+    },
+    {
+      "id": 37,
+      "topic": "signs",
+      "source": "Section 7 - Signs",
+      "question_en": "What shape and color is a STOP sign?",
+      "question_fa": "علامت توقف (STOP) چه شکل و رنگی دارد؟",
+      "answers": [
+        {
+          "en": "Red octagon (eight sides)",
+          "fa": "هشت‌ضلعی قرمز"
+        },
+        {
+          "en": "Yellow diamond",
+          "fa": "لوزی زرد"
+        },
+        {
+          "en": "Red triangle",
+          "fa": "مثلث قرمز"
+        },
+        {
+          "en": "White rectangle",
+          "fa": "مستطیل سفید"
+        }
+      ],
+      "correct_en": "Red octagon (eight sides)",
+      "explanation_en": "A STOP sign is a red octagon. Make a full stop before the crosswalk or limit line.",
+      "explanation_fa": "علامت توقف یک هشت‌ضلعی قرمز است. قبل از گذرگاه عابر یا خط توقف کاملاً بایستید."
+    },
+    {
+      "id": 38,
+      "topic": "signs",
+      "source": "Section 7 - Warning Signs",
+      "question_en": "What does a diamond-shaped sign warn you about?",
+      "question_fa": "علامت لوزی‌شکل درباره چه چیزی هشدار می‌دهد؟",
+      "answers": [
+        {
+          "en": "Specific road conditions and dangers ahead",
+          "fa": "شرایط خاص جاده و خطرات پیش رو"
+        },
+        {
+          "en": "Parking rules",
+          "fa": "قوانین پارک"
+        },
+        {
+          "en": "Speed limits",
+          "fa": "محدودیت سرعت"
+        },
+        {
+          "en": "A school zone only",
+          "fa": "فقط منطقه مدرسه"
+        }
+      ],
+      "correct_en": "Specific road conditions and dangers ahead",
+      "explanation_en": "A diamond-shaped sign warns you of specific road conditions and dangers ahead.",
+      "explanation_fa": "علامت لوزی‌شکل درباره شرایط خاص جاده و خطرات پیش رو هشدار می‌دهد."
+    },
+    {
+      "id": 39,
+      "topic": "pedestrians",
+      "source": "Section 7 - Crosswalks",
+      "question_en": "Do pedestrians have the right-of-way at an unmarked crosswalk?",
+      "question_fa": "آیا عابران پیاده در گذرگاه عابر بدون خط‌کشی حق تقدم دارند؟",
+      "answers": [
+        {
+          "en": "Yes, in both marked and unmarked crosswalks",
+          "fa": "بله، هم در گذرگاه خط‌کشی‌شده و هم بدون خط‌کشی"
+        },
+        {
+          "en": "No, only at marked crosswalks",
+          "fa": "نه، فقط در گذرگاه‌های خط‌کشی‌شده"
+        },
+        {
+          "en": "Only when a light is present",
+          "fa": "فقط وقتی چراغ وجود دارد"
+        },
+        {
+          "en": "Only during the day",
+          "fa": "فقط در طول روز"
+        }
+      ],
+      "correct_en": "Yes, in both marked and unmarked crosswalks",
+      "explanation_en": "Pedestrians have the right-of-way in marked and unmarked crosswalks. Not all crosswalks are marked.",
+      "explanation_fa": "عابران پیاده هم در گذرگاه‌های خط‌کشی‌شده و هم بدون خط‌کشی حق تقدم دارند. همه گذرگاه‌ها خط‌کشی ندارند."
+    },
+    {
+      "id": 40,
+      "topic": "pedestrians",
+      "source": "Section 7 - Pedestrians Who Are Blind",
+      "question_en": "What should you NOT do near a pedestrian who is blind and using a white cane?",
+      "question_fa": "نزدیک عابر نابینایی که از عصای سفید استفاده می‌کند چه کاری را نباید بکنید؟",
+      "answers": [
+        {
+          "en": "Honk your horn at them",
+          "fa": "به آن‌ها بوق بزنید"
+        },
+        {
+          "en": "Slow down",
+          "fa": "آهسته کنید"
+        },
+        {
+          "en": "Yield to them",
+          "fa": "به آن‌ها حق تقدم بدهید"
+        },
+        {
+          "en": "Wait for them to cross",
+          "fa": "صبر کنید تا عبور کنند"
+        }
+      ],
+      "correct_en": "Honk your horn at them",
+      "explanation_en": "Do not honk at a blind person, and do not stop in the middle of a crosswalk. Blind pedestrians using guide dogs or white canes have the right-of-way at all times.",
+      "explanation_fa": "به فرد نابینا بوق نزنید و وسط گذرگاه عابر توقف نکنید. عابران نابینا که از سگ راهنما یا عصای سفید استفاده می‌کنند همیشه حق تقدم دارند."
+    },
+    {
+      "id": 41,
+      "topic": "bicyclists",
+      "source": "Section 7 - Passing a Bicyclist",
+      "question_en": "When passing a bicyclist and you cannot change lanes, how much space must you leave?",
+      "question_fa": "هنگام سبقت از دوچرخه‌سوار وقتی نمی‌توانید تغییر خط دهید، چقدر فاصله باید بگذارید؟",
+      "answers": [
+        {
+          "en": "At least 3 feet",
+          "fa": "حداقل ۳ فوت"
+        },
+        {
+          "en": "At least 1 foot",
+          "fa": "حداقل ۱ فوت"
+        },
+        {
+          "en": "At least 5 feet",
+          "fa": "حداقل ۵ فوت"
+        },
+        {
+          "en": "No specific distance",
+          "fa": "فاصله مشخصی ندارد"
+        }
+      ],
+      "correct_en": "At least 3 feet",
+      "explanation_en": "When you cannot change lanes to pass a bicyclist, allow at least three feet between your vehicle and the bicyclist. If you cannot, do not pass until you can.",
+      "explanation_fa": "وقتی نمی‌توانید برای سبقت از دوچرخه‌سوار تغییر خط دهید، حداقل سه فوت فاصله بگذارید. اگر نمی‌توانید، تا زمانی که بتوانید سبقت نگیرید."
+    },
+    {
+      "id": 42,
+      "topic": "bicyclists",
+      "source": "Section 6 - Bicycle Lanes",
+      "question_en": "When may a driver enter a bicycle lane?",
+      "question_fa": "راننده چه زمانی می‌تواند وارد خط دوچرخه شود؟",
+      "answers": [
+        {
+          "en": "Within 200 feet of an intersection to make a turn",
+          "fa": "تا ۲۰۰ فوتی تقاطع برای پیچیدن"
+        },
+        {
+          "en": "Anytime traffic is heavy",
+          "fa": "هر وقت ترافیک سنگین است"
+        },
+        {
+          "en": "To pass a slow car",
+          "fa": "برای سبقت از ماشین کند"
+        },
+        {
+          "en": "Never under any condition",
+          "fa": "هرگز تحت هیچ شرایطی"
+        }
+      ],
+      "correct_en": "Within 200 feet of an intersection to make a turn",
+      "explanation_en": "It is illegal to drive in a bike lane except to park (where allowed), enter or leave the road, or turn within 200 feet of an intersection.",
+      "explanation_fa": "رانندگی در خط دوچرخه غیرقانونی است، مگر برای پارک (در صورت مجاز بودن)، ورود یا خروج از جاده، یا پیچیدن تا ۲۰۰ فوتی تقاطع."
+    },
+    {
+      "id": 43,
+      "topic": "sharing-road",
+      "source": "Section 7 - Motorcycles",
+      "question_en": "How much following distance should you allow behind a motorcycle?",
+      "question_fa": "پشت یک موتورسیکلت چقدر فاصله باید نگه دارید؟",
+      "answers": [
+        {
+          "en": "A safe three-second following distance",
+          "fa": "فاصله ایمن سه ثانیه‌ای"
+        },
+        {
+          "en": "One second",
+          "fa": "یک ثانیه"
+        },
+        {
+          "en": "Half a second",
+          "fa": "نیم ثانیه"
+        },
+        {
+          "en": "No extra space needed",
+          "fa": "فضای اضافی لازم نیست"
+        }
+      ],
+      "correct_en": "A safe three-second following distance",
+      "explanation_en": "Allow a safe three-second following distance behind a motorcycle so you can avoid hitting the rider if they brake suddenly or fall.",
+      "explanation_fa": "فاصله ایمن سه ثانیه‌ای پشت موتورسیکلت نگه دارید تا اگر موتورسوار ناگهان ترمز کرد یا افتاد بتوانید از برخورد جلوگیری کنید."
+    },
+    {
+      "id": 44,
+      "topic": "sharing-road",
+      "source": "Section 7 - Blind Spots (No Zone)",
+      "question_en": "If you cannot see a truck driver's side mirrors, what does it mean?",
+      "question_fa": "اگر نتوانید آینه‌های بغل راننده کامیون را ببینید، یعنی چه؟",
+      "answers": [
+        {
+          "en": "The truck driver cannot see you",
+          "fa": "راننده کامیون نمی‌تواند شما را ببیند"
+        },
+        {
+          "en": "You are at a safe distance",
+          "fa": "در فاصله ایمن هستید"
+        },
+        {
+          "en": "You can pass safely",
+          "fa": "می‌توانید با ایمنی سبقت بگیرید"
+        },
+        {
+          "en": "The truck is about to stop",
+          "fa": "کامیون در حال توقف است"
+        }
+      ],
+      "correct_en": "The truck driver cannot see you",
+      "explanation_en": "Large trucks have big blind spots called No Zones. If you cannot see the truck's side mirrors, the truck driver cannot see you.",
+      "explanation_fa": "کامیون‌های بزرگ نقاط کور بزرگی به نام «منطقه ممنوع» دارند. اگر نتوانید آینه‌های بغل کامیون را ببینید، راننده کامیون هم نمی‌تواند شما را ببیند."
+    },
+    {
+      "id": 45,
+      "topic": "sharing-road",
+      "source": "Section 7 - Emergency Vehicles",
+      "question_en": "It is illegal to follow within how many feet of an emergency vehicle that has its siren or lights on?",
+      "question_fa": "تعقیب کردن یک خودروی اورژانس که آژیر یا چراغش روشن است تا چند فوتی غیرقانونی است؟",
+      "answers": [
+        {
+          "en": "300 feet",
+          "fa": "۳۰۰ فوت"
+        },
+        {
+          "en": "100 feet",
+          "fa": "۱۰۰ فوت"
+        },
+        {
+          "en": "500 feet",
+          "fa": "۵۰۰ فوت"
+        },
+        {
+          "en": "150 feet",
+          "fa": "۱۵۰ فوت"
+        }
+      ],
+      "correct_en": "300 feet",
+      "explanation_en": "It is against the law to follow within 300 feet of any fire engine, law enforcement vehicle, ambulance, or other emergency vehicle when its siren or flashing lights are on.",
+      "explanation_fa": "تعقیب کردن هر ماشین آتش‌نشانی، خودروی پلیس، آمبولانس یا خودروی اورژانس دیگر تا ۳۰۰ فوتی، وقتی آژیر یا چراغ چشمک‌زن آن روشن است، خلاف قانون است."
+    },
+    {
+      "id": 46,
+      "topic": "weather",
+      "source": "Section 8 - Slippery Roads",
+      "question_en": "On a wet road, how much should you reduce your speed?",
+      "question_fa": "روی جاده خیس، چقدر باید از سرعت خود کم کنید؟",
+      "answers": [
+        {
+          "en": "By 5 to 10 mph",
+          "fa": "۵ تا ۱۰ مایل در ساعت"
+        },
+        {
+          "en": "By half",
+          "fa": "به نصف"
+        },
+        {
+          "en": "To no more than 5 mph",
+          "fa": "به بیش از ۵ مایل در ساعت نرسانید"
+        },
+        {
+          "en": "No reduction needed",
+          "fa": "کاهش لازم نیست"
+        }
+      ],
+      "correct_en": "By 5 to 10 mph",
+      "explanation_en": "On a wet road reduce your speed by 5 to 10 mph. Reduce by half on packed snow, and to no more than 5 mph on ice.",
+      "explanation_fa": "روی جاده خیس سرعت را ۵ تا ۱۰ مایل در ساعت کم کنید. روی برف فشرده به نصف، و روی یخ به بیش از ۵ مایل در ساعت نرسانید."
+    },
+    {
+      "id": 47,
+      "topic": "weather",
+      "source": "Section 8 - Slippery Roads",
+      "question_en": "In heavy rain or snow, if you cannot see farther than 100 feet, what is the maximum safe speed?",
+      "question_fa": "در باران یا برف شدید، اگر بیش از ۱۰۰ فوت جلوتر را نبینید، حداکثر سرعت ایمن چقدر است؟",
+      "answers": [
+        {
+          "en": "30 mph",
+          "fa": "۳۰ مایل در ساعت"
+        },
+        {
+          "en": "45 mph",
+          "fa": "۴۵ مایل در ساعت"
+        },
+        {
+          "en": "55 mph",
+          "fa": "۵۵ مایل در ساعت"
+        },
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        }
+      ],
+      "correct_en": "30 mph",
+      "explanation_en": "If you cannot see farther than 100 feet, it is not safe to drive faster than 30 mph.",
+      "explanation_fa": "اگر بیش از ۱۰۰ فوت جلوتر را نبینید، رانندگی با سرعت بیش از ۳۰ مایل در ساعت ایمن نیست."
+    },
+    {
+      "id": 48,
+      "topic": "weather",
+      "source": "Section 8 - Skids",
+      "question_en": "If your vehicle begins to skid, what should you do with the brakes?",
+      "question_fa": "اگر خودروی شما شروع به سُر خوردن (اسکید) کند، با ترمز چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Do not use the brakes; steer in the direction of the skid",
+          "fa": "از ترمز استفاده نکنید؛ فرمان را به سمت سُر خوردن بچرخانید"
+        },
+        {
+          "en": "Brake hard immediately",
+          "fa": "فوراً محکم ترمز کنید"
+        },
+        {
+          "en": "Pump the gas pedal",
+          "fa": "پدال گاز را بزنید"
+        },
+        {
+          "en": "Turn the wheel opposite the skid",
+          "fa": "فرمان را خلاف جهت سُر خوردن بچرخانید"
+        }
+      ],
+      "correct_en": "Do not use the brakes; steer in the direction of the skid",
+      "explanation_en": "If you start to skid, slowly take your foot off the accelerator, do not use the brakes, and turn the steering wheel in the direction of the skid.",
+      "explanation_fa": "اگر شروع به سُر خوردن کردید، آرام پا را از روی گاز بردارید، از ترمز استفاده نکنید، و فرمان را به سمت جهت سُر خوردن بچرخانید."
+    },
+    {
+      "id": 49,
+      "topic": "weather",
+      "source": "Section 8 - Hydroplaning",
+      "question_en": "If your vehicle starts to hydroplane, what should you do?",
+      "question_fa": "اگر خودروی شما شروع به سُر خوردن روی آب (هیدروپلینینگ) کند، چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Slow down gradually and do not brake suddenly",
+          "fa": "به‌تدریج آهسته کنید و ناگهان ترمز نکنید"
+        },
+        {
+          "en": "Brake hard",
+          "fa": "محکم ترمز کنید"
+        },
+        {
+          "en": "Accelerate through it",
+          "fa": "با گاز دادن از آن عبور کنید"
+        },
+        {
+          "en": "Turn sharply",
+          "fa": "به‌شدت فرمان بچرخانید"
+        }
+      ],
+      "correct_en": "Slow down gradually and do not brake suddenly",
+      "explanation_en": "If your vehicle starts to hydroplane, slow down gradually and do not use the brakes, since sudden braking may cause you to lose control.",
+      "explanation_fa": "اگر خودرو شروع به هیدروپلینینگ کرد، به‌تدریج آهسته کنید و از ترمز استفاده نکنید، چون ترمز ناگهانی ممکن است باعث از دست رفتن کنترل شود."
+    },
+    {
+      "id": 50,
+      "topic": "weather",
+      "source": "Section 8 - Fog or Heavy Smoke",
+      "question_en": "In heavy fog, which headlights should you use?",
+      "question_fa": "در مه شدید، از کدام چراغ‌ها باید استفاده کنید؟",
+      "answers": [
+        {
+          "en": "Low-beam headlights",
+          "fa": "نور پایین"
+        },
+        {
+          "en": "High-beam headlights",
+          "fa": "نور بالا"
+        },
+        {
+          "en": "Parking lights only",
+          "fa": "فقط چراغ‌های پارک"
+        },
+        {
+          "en": "No lights",
+          "fa": "بدون چراغ"
+        }
+      ],
+      "correct_en": "Low-beam headlights",
+      "explanation_en": "In heavy fog use your low-beam headlights. High beams reflect back and cause glare. Never drive using only parking or fog lights.",
+      "explanation_fa": "در مه شدید از نور پایین استفاده کنید. نور بالا بازتاب می‌کند و خیرگی ایجاد می‌کند. هرگز فقط با چراغ پارک یا مه‌شکن رانندگی نکنید."
+    },
+    {
+      "id": 51,
+      "topic": "seat-belts",
+      "source": "Section 8 - Child Restraint",
+      "question_en": "Children under 8 years old generally must be secured in what, and where?",
+      "question_fa": "بچه‌های زیر ۸ سال معمولاً باید در چه چیزی و کجا محکم شوند؟",
+      "answers": [
+        {
+          "en": "A child restraint system in a rear seat",
+          "fa": "سیستم مهار کودک در صندلی عقب"
+        },
+        {
+          "en": "A regular seat belt in the front",
+          "fa": "کمربند معمولی در جلو"
+        },
+        {
+          "en": "Any seat with a lap belt",
+          "fa": "هر صندلی با کمربند کمری"
+        },
+        {
+          "en": "The front seat with an airbag",
+          "fa": "صندلی جلو با کیسه هوا"
+        }
+      ],
+      "correct_en": "A child restraint system in a rear seat",
+      "explanation_en": "Children under 8, or under 4 feet 9 inches tall, must be secured in a child passenger restraint system in a rear seat, with limited exceptions.",
+      "explanation_fa": "بچه‌های زیر ۸ سال یا کوتاه‌تر از ۴ فوت و ۹ اینچ باید در سیستم مهار کودک در صندلی عقب محکم شوند، با استثناهای محدود."
+    },
+    {
+      "id": 52,
+      "topic": "seat-belts",
+      "source": "Section 8 - Child Restraint",
+      "question_en": "A child in a rear-facing restraint may NOT ride where?",
+      "question_fa": "کودکی که در صندلی رو به عقب است، کجا نباید بنشیند؟",
+      "answers": [
+        {
+          "en": "The front seat of an airbag-equipped vehicle",
+          "fa": "صندلی جلوی خودروی مجهز به کیسه هوا"
+        },
+        {
+          "en": "The rear seat",
+          "fa": "صندلی عقب"
+        },
+        {
+          "en": "The middle rear seat",
+          "fa": "صندلی وسط عقب"
+        },
+        {
+          "en": "Any seat",
+          "fa": "هر صندلی"
+        }
+      ],
+      "correct_en": "The front seat of an airbag-equipped vehicle",
+      "explanation_en": "A child in a rear-facing child passenger restraint system may not ride in the front seat of an airbag-equipped vehicle.",
+      "explanation_fa": "کودکی که در سیستم مهار رو به عقب است نباید در صندلی جلوی خودروی مجهز به کیسه هوا بنشیند."
+    },
+    {
+      "id": 53,
+      "topic": "safe-driving",
+      "source": "Section 8 - Scan Your Surroundings",
+      "question_en": "How far ahead should you scan the road to give yourself time to react?",
+      "question_fa": "برای داشتن فرصت واکنش، چند ثانیه جلوتر جاده را باید بررسی کنید؟",
+      "answers": [
+        {
+          "en": "At least 10 seconds ahead",
+          "fa": "حداقل ۱۰ ثانیه جلوتر"
+        },
+        {
+          "en": "At least 2 seconds ahead",
+          "fa": "حداقل ۲ ثانیه جلوتر"
+        },
+        {
+          "en": "Just the car in front",
+          "fa": "فقط ماشین جلویی"
+        },
+        {
+          "en": "30 seconds ahead",
+          "fa": "۳۰ ثانیه جلوتر"
+        }
+      ],
+      "correct_en": "At least 10 seconds ahead",
+      "explanation_en": "Keep your eyes moving and scan the road at least 10 seconds ahead of your vehicle to give yourself time to react.",
+      "explanation_fa": "چشمانتان را در حرکت نگه دارید و حداقل ۱۰ ثانیه جلوتر از خودرو را بررسی کنید تا فرصت واکنش داشته باشید."
+    },
+    {
+      "id": 54,
+      "topic": "distracted-driving",
+      "source": "Section 8 - Minors and Cell Phones",
+      "question_en": "When may a minor (under 18) use a cell phone while driving?",
+      "question_fa": "یک فرد زیر سن قانونی (زیر ۱۸ سال) چه زمانی می‌تواند هنگام رانندگی از تلفن همراه استفاده کند؟",
+      "answers": [
+        {
+          "en": "Only to call for emergency assistance",
+          "fa": "فقط برای تماس در مواقع اضطراری"
+        },
+        {
+          "en": "For hands-free calls anytime",
+          "fa": "برای تماس‌های بدون دست در هر زمان"
+        },
+        {
+          "en": "For texting at red lights",
+          "fa": "برای پیامک در چراغ قرمز"
+        },
+        {
+          "en": "Anytime in hands-free mode",
+          "fa": "هر زمان در حالت بدون دست"
+        }
+      ],
+      "correct_en": "Only to call for emergency assistance",
+      "explanation_en": "It is illegal for a minor to use a cell phone while driving, except to make a call for emergency assistance.",
+      "explanation_fa": "استفاده از تلفن همراه هنگام رانندگی برای فرد زیر سن قانونی غیرقانونی است، مگر برای تماس اضطراری."
+    },
+    {
+      "id": 55,
+      "topic": "distracted-driving",
+      "source": "Section 8 - Carbon Monoxide",
+      "question_en": "Carbon monoxide from a vehicle's exhaust is dangerous because it is:",
+      "question_fa": "مونوکسید کربن از اگزوز خودرو خطرناک است چون:",
+      "answers": [
+        {
+          "en": "A deadly, odorless gas",
+          "fa": "یک گاز کشنده و بی‌بو"
+        },
+        {
+          "en": "Visible smoke only",
+          "fa": "فقط دود قابل دیدن"
+        },
+        {
+          "en": "Harmless in small amounts",
+          "fa": "در مقادیر کم بی‌ضرر"
+        },
+        {
+          "en": "Only a problem for the engine",
+          "fa": "فقط مشکل موتور"
+        }
+      ],
+      "correct_en": "A deadly, odorless gas",
+      "explanation_en": "Carbon monoxide is a deadly odorless gas from the exhaust. Never run your vehicle in a closed garage.",
+      "explanation_fa": "مونوکسید کربن یک گاز کشنده و بی‌بو از اگزوز است. هرگز خودرو را در گاراژ بسته روشن نگذارید."
+    },
+    {
+      "id": 56,
+      "topic": "licensing",
+      "source": "Section 3 - Knowledge Test",
+      "question_en": "How many attempts are you allowed to pass the knowledge test before you must reapply?",
+      "question_fa": "چند بار فرصت دارید آزمون تئوری را قبول شوید قبل از اینکه مجبور به ثبت‌نام مجدد شوید؟",
+      "answers": [
+        {
+          "en": "Three attempts",
+          "fa": "سه بار"
+        },
+        {
+          "en": "Two attempts",
+          "fa": "دو بار"
+        },
+        {
+          "en": "Unlimited attempts",
+          "fa": "بی‌نهایت بار"
+        },
+        {
+          "en": "One attempt",
+          "fa": "یک بار"
+        }
+      ],
+      "correct_en": "Three attempts",
+      "explanation_en": "You are allowed three attempts to pass the knowledge test before you must reapply.",
+      "explanation_fa": "قبل از ثبت‌نام مجدد، سه بار فرصت دارید آزمون تئوری را قبول شوید."
+    },
+    {
+      "id": 57,
+      "topic": "licensing",
+      "source": "Section 4 - Change Your Address",
+      "question_en": "If you move, within how many days must you notify DMV of your new address?",
+      "question_fa": "اگر نقل‌مکان کنید، ظرف چند روز باید آدرس جدید خود را به اداره راهنمایی و رانندگی اطلاع دهید؟",
+      "answers": [
+        {
+          "en": "10 days",
+          "fa": "۱۰ روز"
+        },
+        {
+          "en": "30 days",
+          "fa": "۳۰ روز"
+        },
+        {
+          "en": "5 days",
+          "fa": "۵ روز"
+        },
+        {
+          "en": "60 days",
+          "fa": "۶۰ روز"
+        }
+      ],
+      "correct_en": "10 days",
+      "explanation_en": "You must notify DMV of your new address within ten days of moving.",
+      "explanation_fa": "باید ظرف ده روز پس از نقل‌مکان، آدرس جدید خود را به اداره راهنمایی و رانندگی اطلاع دهید."
+    },
+    {
+      "id": 58,
+      "topic": "licensing",
+      "source": "Section 2 - Minor's Restrictions",
+      "question_en": "During the first 12 months, a provisional (under-18) driver may not drive between which hours without a qualified adult?",
+      "question_fa": "در ۱۲ ماه اول، راننده آزمایشی (زیر ۱۸ سال) بدون یک بزرگسال واجد شرایط، بین چه ساعاتی نمی‌تواند رانندگی کند؟",
+      "answers": [
+        {
+          "en": "11 p.m. and 5 a.m.",
+          "fa": "۱۱ شب تا ۵ صبح"
+        },
+        {
+          "en": "9 p.m. and 6 a.m.",
+          "fa": "۹ شب تا ۶ صبح"
+        },
+        {
+          "en": "Midnight and 5 a.m.",
+          "fa": "نیمه‌شب تا ۵ صبح"
+        },
+        {
+          "en": "10 p.m. and 4 a.m.",
+          "fa": "۱۰ شب تا ۴ صبح"
+        }
+      ],
+      "correct_en": "11 p.m. and 5 a.m.",
+      "explanation_en": "During the first 12 months, a provisional driver cannot drive between 11 p.m. and 5 a.m. unless accompanied by a qualified licensed adult.",
+      "explanation_fa": "در ۱۲ ماه اول، راننده آزمایشی بین ۱۱ شب تا ۵ صبح نمی‌تواند رانندگی کند، مگر با همراهی یک بزرگسال دارای گواهینامه واجد شرایط."
+    },
+    {
+      "id": 59,
+      "topic": "licensing",
+      "source": "Section 2 - Applying for a Driver's License",
+      "question_en": "A driver under 18 must practice at least how many hours with a licensed adult before the drive test?",
+      "question_fa": "راننده زیر ۱۸ سال قبل از آزمون رانندگی باید حداقل چند ساعت با یک بزرگسال دارای گواهینامه تمرین کند؟",
+      "answers": [
+        {
+          "en": "50 hours, with 10 at night",
+          "fa": "۵۰ ساعت، که ۱۰ ساعت آن شب باشد"
+        },
+        {
+          "en": "25 hours",
+          "fa": "۲۵ ساعت"
+        },
+        {
+          "en": "100 hours",
+          "fa": "۱۰۰ ساعت"
+        },
+        {
+          "en": "10 hours",
+          "fa": "۱۰ ساعت"
+        }
+      ],
+      "correct_en": "50 hours, with 10 at night",
+      "explanation_en": "Drivers under 18 must practice at least 50 hours with a California-licensed driver at least 25 years old. Ten of those hours must be at night.",
+      "explanation_fa": "رانندگان زیر ۱۸ سال باید حداقل ۵۰ ساعت با راننده‌ای دارای گواهینامه کالیفرنیا و حداقل ۲۵ ساله تمرین کنند. ۱۰ ساعت آن باید شب باشد."
+    },
+    {
+      "id": 60,
+      "topic": "penalties",
+      "source": "Section 7 - Points on Your Driver's Record",
+      "question_en": "As an adult, your license may be suspended if you get how many points in 12 months?",
+      "question_fa": "به‌عنوان یک بزرگسال، اگر در ۱۲ ماه چند امتیاز منفی بگیرید ممکن است گواهینامه‌تان تعلیق شود؟",
+      "answers": [
+        {
+          "en": "4 points",
+          "fa": "۴ امتیاز"
+        },
+        {
+          "en": "2 points",
+          "fa": "۲ امتیاز"
+        },
+        {
+          "en": "6 points",
+          "fa": "۶ امتیاز"
+        },
+        {
+          "en": "8 points",
+          "fa": "۸ امتیاز"
+        }
+      ],
+      "correct_en": "4 points",
+      "explanation_en": "An adult's license may be suspended with 4 points in 12 months, 6 points in 24 months, or 8 points in 36 months.",
+      "explanation_fa": "گواهینامه یک بزرگسال ممکن است با ۴ امتیاز در ۱۲ ماه، ۶ امتیاز در ۲۴ ماه، یا ۸ امتیاز در ۳۶ ماه تعلیق شود."
+    },
+    {
+      "id": 61,
+      "topic": "penalties",
+      "source": "Section 7 - Other Roadway Information",
+      "question_en": "Is it legal to smoke in a vehicle when a minor is present?",
+      "question_fa": "آیا سیگار کشیدن در خودرو وقتی یک فرد زیر سن قانونی حضور دارد قانونی است؟",
+      "answers": [
+        {
+          "en": "No, you can be fined",
+          "fa": "نه، می‌توانید جریمه شوید"
+        },
+        {
+          "en": "Yes, with a window open",
+          "fa": "بله، با یک پنجره باز"
+        },
+        {
+          "en": "Yes, always",
+          "fa": "بله، همیشه"
+        },
+        {
+          "en": "Only if the minor agrees",
+          "fa": "فقط اگر فرد زیر سن موافق باشد"
+        }
+      ],
+      "correct_en": "No, you can be fined",
+      "explanation_en": "You must not smoke when a minor is in the vehicle. You can be fined.",
+      "explanation_fa": "وقتی یک فرد زیر سن قانونی در خودرو است نباید سیگار بکشید. می‌توانید جریمه شوید."
+    },
+    {
+      "id": 62,
+      "topic": "signals",
+      "source": "Section 7 - Traffic Signals",
+      "question_en": "What does a flashing red traffic light mean?",
+      "question_fa": "چراغ قرمز چشمک‌زن به چه معناست؟",
+      "answers": [
+        {
+          "en": "Stop, then go when it is safe",
+          "fa": "توقف کنید، سپس وقتی ایمن بود حرکت کنید"
+        },
+        {
+          "en": "Slow down only",
+          "fa": "فقط آهسته کنید"
+        },
+        {
+          "en": "Proceed without stopping",
+          "fa": "بدون توقف ادامه دهید"
+        },
+        {
+          "en": "The light is broken",
+          "fa": "چراغ خراب است"
+        }
+      ],
+      "correct_en": "Stop, then go when it is safe",
+      "explanation_en": "A flashing red light means STOP. After stopping, you may go when it is safe, just like a stop sign.",
+      "explanation_fa": "چراغ قرمز چشمک‌زن یعنی توقف. پس از توقف، وقتی ایمن بود می‌توانید حرکت کنید، درست مثل علامت توقف."
+    },
+    {
+      "id": 63,
+      "topic": "signals",
+      "source": "Section 7 - Traffic Signals",
+      "question_en": "What does a flashing yellow traffic light mean?",
+      "question_fa": "چراغ زرد چشمک‌زن به چه معناست؟",
+      "answers": [
+        {
+          "en": "Proceed with caution; you do not need to stop",
+          "fa": "با احتیاط ادامه دهید؛ نیازی به توقف نیست"
+        },
+        {
+          "en": "Stop completely",
+          "fa": "کاملاً توقف کنید"
+        },
+        {
+          "en": "The same as a red light",
+          "fa": "مثل چراغ قرمز"
+        },
+        {
+          "en": "Speed up",
+          "fa": "سرعت بگیرید"
+        }
+      ],
+      "correct_en": "Proceed with caution; you do not need to stop",
+      "explanation_en": "A flashing yellow light is a warning to slow down and proceed with caution. You do not need to stop.",
+      "explanation_fa": "چراغ زرد چشمک‌زن هشداری برای آهسته کردن و ادامه با احتیاط است. نیازی به توقف نیست."
+    },
+    {
+      "id": 64,
+      "topic": "signals",
+      "source": "Section 7 - Solid Yellow Light",
+      "question_en": "What does a solid yellow traffic light mean?",
+      "question_fa": "چراغ زرد ثابت به چه معناست؟",
+      "answers": [
+        {
+          "en": "Caution; the light is about to turn red",
+          "fa": "احتیاط؛ چراغ در حال قرمز شدن است"
+        },
+        {
+          "en": "Go faster to beat the light",
+          "fa": "سریع‌تر بروید تا از چراغ رد شوید"
+        },
+        {
+          "en": "Stop and stay stopped",
+          "fa": "توقف کنید و متوقف بمانید"
+        },
+        {
+          "en": "The same as green",
+          "fa": "مثل سبز"
+        }
+      ],
+      "correct_en": "Caution; the light is about to turn red",
+      "explanation_en": "A yellow light means caution; it is about to turn red. Stop if you can do so safely.",
+      "explanation_fa": "چراغ زرد یعنی احتیاط؛ در حال قرمز شدن است. اگر می‌توانید با ایمنی توقف کنید، توقف کنید."
+    },
+    {
+      "id": 65,
+      "topic": "right-of-way",
+      "source": "Section 7 - Roundabouts",
+      "question_en": "When entering a roundabout, who must you yield to?",
+      "question_fa": "هنگام ورود به میدان (دوربرگردان دایره‌ای)، به چه کسی باید حق تقدم بدهید؟",
+      "answers": [
+        {
+          "en": "All traffic already in the roundabout",
+          "fa": "تمام خودروهایی که از قبل در میدان هستند"
+        },
+        {
+          "en": "Traffic entering after you",
+          "fa": "خودروهایی که بعد از شما وارد می‌شوند"
+        },
+        {
+          "en": "No one",
+          "fa": "هیچ‌کس"
+        },
+        {
+          "en": "Only large trucks",
+          "fa": "فقط کامیون‌های بزرگ"
+        }
+      ],
+      "correct_en": "All traffic already in the roundabout",
+      "explanation_en": "Slow down as you approach a roundabout and yield to all traffic already in it. Travel counterclockwise and do not stop or pass.",
+      "explanation_fa": "هنگام نزدیک شدن به میدان آهسته کنید و به تمام خودروهای داخل میدان حق تقدم بدهید. خلاف جهت عقربه‌های ساعت حرکت کنید و توقف یا سبقت نگیرید."
+    },
+    {
+      "id": 66,
+      "topic": "safe-driving",
+      "source": "Section 8 - Seat Belts",
+      "question_en": "You can get a ticket if a passenger under what age is not wearing a seat belt?",
+      "question_fa": "اگر مسافری زیر چه سنی کمربند ایمنی نبسته باشد، می‌توانید جریمه شوید؟",
+      "answers": [
+        {
+          "en": "Under 16",
+          "fa": "زیر ۱۶ سال"
+        },
+        {
+          "en": "Under 18",
+          "fa": "زیر ۱۸ سال"
+        },
+        {
+          "en": "Under 21",
+          "fa": "زیر ۲۱ سال"
+        },
+        {
+          "en": "Under 12",
+          "fa": "زیر ۱۲ سال"
+        }
+      ],
+      "correct_en": "Under 16",
+      "explanation_en": "If your passenger is under 16 and not wearing a seat belt, you (the driver) can get a ticket.",
+      "explanation_fa": "اگر مسافر شما زیر ۱۶ سال باشد و کمربند ایمنی نبسته باشد، شما (راننده) می‌توانید جریمه شوید."
+    },
+    {
+      "id": 67,
+      "topic": "safe-driving",
+      "source": "Section 8 - Air Bags",
+      "question_en": "How far should you sit from the steering wheel air bag?",
+      "question_fa": "چقدر باید از کیسه هوای فرمان فاصله بنشینید؟",
+      "answers": [
+        {
+          "en": "At least 10 inches",
+          "fa": "حداقل ۱۰ اینچ"
+        },
+        {
+          "en": "At least 5 inches",
+          "fa": "حداقل ۵ اینچ"
+        },
+        {
+          "en": "At least 20 inches",
+          "fa": "حداقل ۲۰ اینچ"
+        },
+        {
+          "en": "Distance does not matter",
+          "fa": "فاصله مهم نیست"
+        }
+      ],
+      "correct_en": "At least 10 inches",
+      "explanation_en": "Ride at least 10 inches from the air bag cover, measured from the center of the steering wheel to your breastbone, while keeping full control.",
+      "explanation_fa": "حداقل ۱۰ اینچ از روکش کیسه هوا فاصله بگیرید، که از مرکز فرمان تا استخوان جناغ سینه اندازه‌گیری می‌شود، در حالی که کنترل کامل دارید."
+    },
+    {
+      "id": 68,
+      "topic": "safe-driving",
+      "source": "Section 8 - Unattended Children",
+      "question_en": "At what age or younger is it illegal to leave a child unattended in a vehicle?",
+      "question_fa": "تنها گذاشتن کودک در خودرو تا چه سنی غیرقانونی است؟",
+      "answers": [
+        {
+          "en": "6 years old or younger",
+          "fa": "۶ سال یا کمتر"
+        },
+        {
+          "en": "10 years old or younger",
+          "fa": "۱۰ سال یا کمتر"
+        },
+        {
+          "en": "3 years old or younger",
+          "fa": "۳ سال یا کمتر"
+        },
+        {
+          "en": "8 years old or younger",
+          "fa": "۸ سال یا کمتر"
+        }
+      ],
+      "correct_en": "6 years old or younger",
+      "explanation_en": "It is illegal to leave a child six years old or younger unattended in a vehicle. They may be supervised by someone at least 12 years old.",
+      "explanation_fa": "تنها گذاشتن کودک شش‌ساله یا کوچک‌تر در خودرو غیرقانونی است. آن‌ها می‌توانند تحت نظارت فردی حداقل ۱۲ ساله باشند."
+    },
+    {
+      "id": 69,
+      "topic": "speed-limits",
+      "source": "Section 7 - Near Railroad Tracks",
+      "question_en": "What is the speed limit within 100 feet of a railroad crossing when you cannot see the tracks clearly?",
+      "question_fa": "تا ۱۰۰ فوتی گذرگاه راه‌آهن، وقتی ریل‌ها را به‌وضوح نمی‌بینید، سرعت مجاز چقدر است؟",
+      "answers": [
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        },
+        {
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت"
+        },
+        {
+          "en": "35 mph",
+          "fa": "۳۵ مایل در ساعت"
+        },
+        {
+          "en": "10 mph",
+          "fa": "۱۰ مایل در ساعت"
+        }
+      ],
+      "correct_en": "15 mph",
+      "explanation_en": "The speed limit is 15 mph within 100 feet of a railroad crossing if you cannot see the tracks for 400 feet in both directions, unless controlled by gates, a signal, or a flagman.",
+      "explanation_fa": "اگر نتوانید ریل‌ها را تا ۴۰۰ فوت در هر دو جهت ببینید، سرعت مجاز تا ۱۰۰ فوتی گذرگاه راه‌آهن ۱۵ مایل در ساعت است، مگر اینکه با مانع، چراغ یا پرچم‌دار کنترل شود."
+    },
+    {
+      "id": 70,
+      "topic": "safe-driving",
+      "source": "Section 6 - Parallel Parking",
+      "question_en": "When parallel parking, your vehicle should end up within how many inches of the curb?",
+      "question_fa": "هنگام پارک موازی، خودروی شما باید در فاصله چند اینچی جدول قرار بگیرد؟",
+      "answers": [
+        {
+          "en": "18 inches",
+          "fa": "۱۸ اینچ"
+        },
+        {
+          "en": "6 inches",
+          "fa": "۶ اینچ"
+        },
+        {
+          "en": "24 inches",
+          "fa": "۲۴ اینچ"
+        },
+        {
+          "en": "12 inches",
+          "fa": "۱۲ اینچ"
+        }
+      ],
+      "correct_en": "18 inches",
+      "explanation_en": "After parallel parking, your vehicle should be parallel and within 18 inches of the curb.",
+      "explanation_fa": "پس از پارک موازی، خودروی شما باید موازی و در فاصله ۱۸ اینچی جدول باشد."
+    },
+    {
+      "id": 71,
+      "topic": "parking",
+      "source": "Section 6 - Parking on a Hill",
+      "question_en": "When parking facing downhill, which way should you turn your front wheels?",
+      "question_fa": "هنگام پارک رو به پایین (سرازیری)، چرخ‌های جلو را به کدام سمت باید بچرخانید؟",
+      "answers": [
+        {
+          "en": "Toward the curb",
+          "fa": "به سمت جدول"
+        },
+        {
+          "en": "Away from the curb",
+          "fa": "دور از جدول"
+        },
+        {
+          "en": "Straight ahead",
+          "fa": "مستقیم به جلو"
+        },
+        {
+          "en": "It does not matter",
+          "fa": "مهم نیست"
+        }
+      ],
+      "correct_en": "Toward the curb",
+      "explanation_en": "When headed downhill, turn your front wheels into the curb so the vehicle will not roll into the street if the brakes fail.",
+      "explanation_fa": "هنگام رو به پایین بودن، چرخ‌های جلو را به سمت جدول بچرخانید تا اگر ترمز خراب شد خودرو به خیابان نغلتد."
+    },
+    {
+      "id": 72,
+      "topic": "parking",
+      "source": "Section 6 - Parking on a Hill",
+      "question_en": "When parking facing uphill next to a curb, which way should you turn your front wheels?",
+      "question_fa": "هنگام پارک رو به بالا (سربالایی) کنار جدول، چرخ‌های جلو را به کدام سمت باید بچرخانید؟",
+      "answers": [
+        {
+          "en": "Away from the curb",
+          "fa": "دور از جدول"
+        },
+        {
+          "en": "Toward the curb",
+          "fa": "به سمت جدول"
+        },
+        {
+          "en": "Straight ahead",
+          "fa": "مستقیم به جلو"
+        },
+        {
+          "en": "Either way works",
+          "fa": "هر دو سمت خوب است"
+        }
+      ],
+      "correct_en": "Away from the curb",
+      "explanation_en": "When headed uphill, turn your front wheels away from the curb and let the vehicle roll back so a wheel gently touches the curb.",
+      "explanation_fa": "هنگام رو به بالا بودن، چرخ‌های جلو را دور از جدول بچرخانید و بگذارید خودرو کمی عقب برود تا یک چرخ به‌آرامی به جدول بخورد."
+    },
+    {
+      "id": 73,
+      "topic": "lane-choice",
+      "source": "Section 6 - Choosing a Lane",
+      "question_en": "Which lane should you generally use to pass or turn left?",
+      "question_fa": "معمولاً برای سبقت یا گردش به چپ از کدام خط باید استفاده کنید؟",
+      "answers": [
+        {
+          "en": "The left lane",
+          "fa": "خط چپ"
+        },
+        {
+          "en": "The right lane",
+          "fa": "خط راست"
+        },
+        {
+          "en": "The center left turn lane",
+          "fa": "خط گردش به چپ وسط"
+        },
+        {
+          "en": "Any lane",
+          "fa": "هر خطی"
+        }
+      ],
+      "correct_en": "The left lane",
+      "explanation_en": "Use the left lane to pass or turn left. Use the right lane to enter or exit traffic.",
+      "explanation_fa": "برای سبقت یا گردش به چپ از خط چپ استفاده کنید. برای ورود یا خروج از ترافیک از خط راست استفاده کنید."
+    },
+    {
+      "id": 74,
+      "topic": "safe-driving",
+      "source": "Section 6 - Center Left Turn Lane",
+      "question_en": "How far may you drive in a center left turn lane?",
+      "question_fa": "چقدر می‌توانید در خط گردش به چپ وسط رانندگی کنید؟",
+      "answers": [
+        {
+          "en": "Up to 200 feet",
+          "fa": "تا ۲۰۰ فوت"
+        },
+        {
+          "en": "Up to 500 feet",
+          "fa": "تا ۵۰۰ فوت"
+        },
+        {
+          "en": "Up to 100 feet",
+          "fa": "تا ۱۰۰ فوت"
+        },
+        {
+          "en": "As far as you want",
+          "fa": "تا هر جا که بخواهید"
+        }
+      ],
+      "correct_en": "Up to 200 feet",
+      "explanation_en": "You may only drive up to 200 feet in the center left turn lane. It is not a regular traffic or passing lane.",
+      "explanation_fa": "فقط می‌توانید تا ۲۰۰ فوت در خط گردش به چپ وسط رانندگی کنید. این خط، خط عبور عادی یا سبقت نیست."
+    },
+    {
+      "id": 75,
+      "topic": "safe-driving",
+      "source": "Section 8 - Night Driving",
+      "question_en": "If an oncoming vehicle's high beams are blinding you, where should you look?",
+      "question_fa": "اگر نور بالای خودروی روبرو شما را خیره می‌کند، باید به کجا نگاه کنید؟",
+      "answers": [
+        {
+          "en": "Toward the right edge of your lane",
+          "fa": "به سمت لبه راست خط خود"
+        },
+        {
+          "en": "Directly at the headlights",
+          "fa": "مستقیم به چراغ‌ها"
+        },
+        {
+          "en": "Down at the dashboard",
+          "fa": "پایین به داشبورد"
+        },
+        {
+          "en": "At your mirror",
+          "fa": "به آینه خود"
+        }
+      ],
+      "correct_en": "Toward the right edge of your lane",
+      "explanation_en": "Do not look directly into oncoming headlights. Look toward the right edge of your lane and watch the other vehicle out of the corner of your eye.",
+      "explanation_fa": "مستقیم به چراغ‌های روبرو نگاه نکنید. به سمت لبه راست خط خود نگاه کنید و خودروی دیگر را با گوشه چشم زیر نظر بگیرید."
+    },
+    {
+      "id": 76,
+      "topic": "safe-driving",
+      "source": "Section 5 - Emergency Flashers",
+      "question_en": "If you must stop because of vehicle trouble, what should you turn on?",
+      "question_fa": "اگر به دلیل مشکل خودرو مجبور به توقف شدید، چه چیزی را باید روشن کنید؟",
+      "answers": [
+        {
+          "en": "Your emergency flashers",
+          "fa": "چراغ‌های خطر (فلاشر)"
+        },
+        {
+          "en": "Your high beams",
+          "fa": "نور بالا"
+        },
+        {
+          "en": "Your interior lights",
+          "fa": "چراغ‌های داخل"
+        },
+        {
+          "en": "Nothing",
+          "fa": "هیچ چیز"
+        }
+      ],
+      "correct_en": "Your emergency flashers",
+      "explanation_en": "If you must stop for vehicle trouble, turn on your emergency flashers (or turn signals if you have no flashers) and pull off the road if possible.",
+      "explanation_fa": "اگر به دلیل مشکل خودرو مجبور به توقف شدید، چراغ‌های خطر را روشن کنید (یا اگر فلاشر ندارید، راهنماها) و در صورت امکان از جاده خارج شوید."
+    },
+    {
+      "id": 77,
+      "topic": "signs",
+      "source": "Section 7 - Wrong Way",
+      "question_en": "At night, how can you tell you are driving the wrong way on a road?",
+      "question_fa": "در شب، چگونه می‌فهمید که در جهت اشتباه جاده رانندگی می‌کنید؟",
+      "answers": [
+        {
+          "en": "The road reflectors shine red in your headlights",
+          "fa": "بازتاب‌دهنده‌های جاده در نور چراغ شما قرمز می‌درخشند"
+        },
+        {
+          "en": "The road reflectors shine green",
+          "fa": "بازتاب‌دهنده‌ها سبز می‌درخشند"
+        },
+        {
+          "en": "There are no reflectors",
+          "fa": "هیچ بازتاب‌دهنده‌ای نیست"
+        },
+        {
+          "en": "The lines turn blue",
+          "fa": "خطوط آبی می‌شوند"
+        }
+      ],
+      "correct_en": "The road reflectors shine red in your headlights",
+      "explanation_en": "If you are going the wrong way at night, the road reflectors will shine red in your headlights. When safe, back out or turn around.",
+      "explanation_fa": "اگر شب در جهت اشتباه می‌روید، بازتاب‌دهنده‌های جاده در نور چراغ شما قرمز می‌درخشند. وقتی ایمن بود، عقب بروید یا برگردید."
+    },
+    {
+      "id": 78,
+      "topic": "safe-driving",
+      "source": "Section 8 - Disabled on Freeway",
+      "question_en": "If your vehicle becomes disabled on the freeway, what should you generally do?",
+      "question_fa": "اگر خودروی شما در بزرگراه خراب شود، معمولاً چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Pull onto the right shoulder and stay in the vehicle with seat belt on",
+          "fa": "به شانه راست جاده بروید و با کمربند بسته در خودرو بمانید"
+        },
+        {
+          "en": "Stand behind the vehicle",
+          "fa": "پشت خودرو بایستید"
+        },
+        {
+          "en": "Walk across the freeway for help",
+          "fa": "برای کمک از عرض بزرگراه عبور کنید"
+        },
+        {
+          "en": "Leave the vehicle in the lane",
+          "fa": "خودرو را در خط رها کنید"
+        }
+      ],
+      "correct_en": "Pull onto the right shoulder and stay in the vehicle with seat belt on",
+      "explanation_en": "Pull over to the right shoulder, call for help (511 or a call box), and stay inside with your seat belt on until help arrives, unless it is safer to get away from traffic.",
+      "explanation_fa": "به شانه راست جاده بروید، برای کمک تماس بگیرید (۵۱۱ یا باکس تماس) و با کمربند بسته داخل خودرو بمانید تا کمک برسد، مگر اینکه دور شدن از ترافیک ایمن‌تر باشد."
+    },
+    {
+      "id": 79,
+      "topic": "dui",
+      "source": "Section 9 - Alcohol and Drugs",
+      "question_en": "Do California DUI laws apply to prescription and over-the-counter medications?",
+      "question_fa": "آیا قوانین رانندگی در حالت مستی کالیفرنیا شامل داروهای تجویزی و بدون نسخه هم می‌شود؟",
+      "answers": [
+        {
+          "en": "Yes, if they affect your ability to drive",
+          "fa": "بله، اگر بر توانایی رانندگی شما اثر بگذارند"
+        },
+        {
+          "en": "No, only illegal drugs",
+          "fa": "نه، فقط مواد غیرقانونی"
+        },
+        {
+          "en": "No, only alcohol",
+          "fa": "نه، فقط الکل"
+        },
+        {
+          "en": "Only for drivers under 21",
+          "fa": "فقط برای رانندگان زیر ۲۱ سال"
+        }
+      ],
+      "correct_en": "Yes, if they affect your ability to drive",
+      "explanation_en": "The law does not distinguish between illegal drugs and medications from a doctor or pharmacy. Any drug that affects your ability to drive safely is covered.",
+      "explanation_fa": "قانون بین مواد غیرقانونی و داروهای پزشک یا داروخانه تفاوتی قائل نمی‌شود. هر دارویی که بر توانایی رانندگی ایمن شما اثر بگذارد مشمول می‌شود."
+    },
+    {
+      "id": 80,
+      "topic": "insurance",
+      "source": "Section 10 - Insurance Requirements",
+      "question_en": "What is the minimum insurance coverage for a single death or injury in California?",
+      "question_fa": "حداقل پوشش بیمه برای یک مورد فوت یا جراحت در کالیفرنیا چقدر است؟",
+      "answers": [
+        {
+          "en": "$30,000",
+          "fa": "۳۰٬۰۰۰ دلار"
+        },
+        {
+          "en": "$15,000",
+          "fa": "۱۵٬۰۰۰ دلار"
+        },
+        {
+          "en": "$60,000",
+          "fa": "۶۰٬۰۰۰ دلار"
+        },
+        {
+          "en": "$5,000",
+          "fa": "۵٬۰۰۰ دلار"
+        }
+      ],
+      "correct_en": "$30,000",
+      "explanation_en": "California minimum insurance must cover at least $30,000 for a single death or injury, $60,000 for more than one person, and $15,000 for property damage.",
+      "explanation_fa": "حداقل بیمه کالیفرنیا باید دست‌کم ۳۰٬۰۰۰ دلار برای یک فوت یا جراحت، ۶۰٬۰۰۰ دلار برای بیش از یک نفر، و ۱۵٬۰۰۰ دلار برای خسارت مالی را پوشش دهد."
+    },
+    {
+      "id": 81,
+      "topic": "insurance",
+      "source": "Section 10 - What to Do if in a Collision",
+      "question_en": "What is leaving the scene of a collision without stopping called?",
+      "question_fa": "ترک صحنه تصادف بدون توقف چه نامیده می‌شود؟",
+      "answers": [
+        {
+          "en": "A hit-and-run",
+          "fa": "تصادف و فرار"
+        },
+        {
+          "en": "A fender bender",
+          "fa": "تصادف جزئی"
+        },
+        {
+          "en": "A no-fault collision",
+          "fa": "تصادف بدون تقصیر"
+        },
+        {
+          "en": "A traffic break",
+          "fa": "وقفه ترافیکی"
+        }
+      ],
+      "correct_en": "A hit-and-run",
+      "explanation_en": "Failing to stop or leaving the scene of a collision is a hit-and-run, and the punishment is severe.",
+      "explanation_fa": "عدم توقف یا ترک صحنه تصادف، «تصادف و فرار» نامیده می‌شود و مجازات آن سنگین است."
+    },
+    {
+      "id": 82,
+      "topic": "sharing-road",
+      "source": "Section 7 - Buses, Streetcars",
+      "question_en": "When a bus or streetcar is stopped at a safety zone, you may pass at no more than what speed?",
+      "question_fa": "وقتی اتوبوس یا واگن برقی در یک منطقه ایمنی توقف کرده، با حداکثر چه سرعتی می‌توانید عبور کنید؟",
+      "answers": [
+        {
+          "en": "10 mph",
+          "fa": "۱۰ مایل در ساعت"
+        },
+        {
+          "en": "25 mph",
+          "fa": "۲۵ مایل در ساعت"
+        },
+        {
+          "en": "15 mph",
+          "fa": "۱۵ مایل در ساعت"
+        },
+        {
+          "en": "5 mph",
+          "fa": "۵ مایل در ساعت"
+        }
+      ],
+      "correct_en": "10 mph",
+      "explanation_en": "When a bus, streetcar, or trolley is stopped at a safety zone or traffic light, you may pass at no more than 10 mph.",
+      "explanation_fa": "وقتی اتوبوس، واگن برقی یا ترولی در منطقه ایمنی یا چراغ راهنمایی توقف کرده، با حداکثر ۱۰ مایل در ساعت می‌توانید عبور کنید."
+    },
+    {
+      "id": 83,
+      "topic": "safe-driving",
+      "source": "Section 8 - High Winds",
+      "question_en": "When driving in high winds, what should you avoid using?",
+      "question_fa": "هنگام رانندگی در باد شدید، از استفاده از چه چیزی باید خودداری کنید؟",
+      "answers": [
+        {
+          "en": "Cruise control",
+          "fa": "کروز کنترل"
+        },
+        {
+          "en": "Your headlights",
+          "fa": "چراغ‌های جلو"
+        },
+        {
+          "en": "Your mirrors",
+          "fa": "آینه‌ها"
+        },
+        {
+          "en": "Your seat belt",
+          "fa": "کمربند ایمنی"
+        }
+      ],
+      "correct_en": "Cruise control",
+      "explanation_en": "In high winds, do not use cruise control so you keep maximum control of the accelerator if a gust occurs. Reduce speed and hold the wheel firmly.",
+      "explanation_fa": "در باد شدید از کروز کنترل استفاده نکنید تا اگر تندبادی آمد کنترل کامل گاز را داشته باشید. سرعت را کم کنید و فرمان را محکم بگیرید."
+    },
+    {
+      "id": 84,
+      "topic": "safe-driving",
+      "source": "Section 8 - Tire Blowouts",
+      "question_en": "If you have a tire blowout, what should you do first?",
+      "question_fa": "اگر لاستیک شما بترکد، اول چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Hold the wheel firmly with both hands and stay steady",
+          "fa": "فرمان را با هر دو دست محکم بگیرید و ثابت بمانید"
+        },
+        {
+          "en": "Brake hard immediately",
+          "fa": "فوراً محکم ترمز کنید"
+        },
+        {
+          "en": "Quickly steer to the shoulder",
+          "fa": "سریع به سمت شانه فرمان دهید"
+        },
+        {
+          "en": "Take your foot off the gas abruptly",
+          "fa": "ناگهان پا را از روی گاز بردارید"
+        }
+      ],
+      "correct_en": "Hold the wheel firmly with both hands and stay steady",
+      "explanation_en": "With a blowout, do not panic. Hold the wheel with both hands, maintain speed if safe, then gradually release the accelerator and pull off when stable.",
+      "explanation_fa": "هنگام ترکیدن لاستیک وحشت نکنید. فرمان را با هر دو دست بگیرید، اگر ایمن بود سرعت را حفظ کنید، سپس به‌تدریج پا را از گاز بردارید و وقتی پایدار شد کنار بکشید."
+    },
+    {
+      "id": 85,
+      "topic": "right-of-way",
+      "source": "Section 7 - Intersections",
+      "question_en": "Who always has the right-of-way at intersections?",
+      "question_fa": "در تقاطع‌ها همیشه حق تقدم با کیست؟",
+      "answers": [
+        {
+          "en": "Pedestrians",
+          "fa": "عابران پیاده"
+        },
+        {
+          "en": "The fastest vehicle",
+          "fa": "سریع‌ترین خودرو"
+        },
+        {
+          "en": "The largest vehicle",
+          "fa": "بزرگ‌ترین خودرو"
+        },
+        {
+          "en": "Whoever honks first",
+          "fa": "هر کس اول بوق بزند"
+        }
+      ],
+      "correct_en": "Pedestrians",
+      "explanation_en": "Pedestrians always have the right-of-way at intersections. Before entering, look left, right, and ahead for vehicles, bicyclists, and pedestrians.",
+      "explanation_fa": "در تقاطع‌ها عابران پیاده همیشه حق تقدم دارند. قبل از ورود، به چپ، راست و جلو برای خودروها، دوچرخه‌سواران و عابران نگاه کنید."
+    },
+    {
+      "id": 86,
+      "topic": "signaling",
+      "source": "Section 5 - Signaling",
+      "question_en": "Besides turning, when else must you signal?",
+      "question_fa": "به‌جز پیچیدن، چه زمان دیگری باید چراغ راهنما بزنید؟",
+      "answers": [
+        {
+          "en": "When changing lanes, slowing down, or stopping",
+          "fa": "هنگام تغییر خط، آهسته کردن یا توقف"
+        },
+        {
+          "en": "Only when police are nearby",
+          "fa": "فقط وقتی پلیس نزدیک است"
+        },
+        {
+          "en": "Only on freeways",
+          "fa": "فقط در بزرگراه‌ها"
+        },
+        {
+          "en": "Never, only for turns",
+          "fa": "هرگز، فقط برای پیچیدن"
+        }
+      ],
+      "correct_en": "When changing lanes, slowing down, or stopping",
+      "explanation_en": "Always signal when you turn, change lanes, slow down, or stop, even when you do not see other vehicles.",
+      "explanation_fa": "همیشه هنگام پیچیدن، تغییر خط، آهسته کردن یا توقف چراغ راهنما بزنید، حتی وقتی خودروی دیگری نمی‌بینید."
+    },
+    {
+      "id": 87,
+      "topic": "headlights",
+      "source": "Section 5 - Using Your Headlights",
+      "question_en": "You must turn on your headlights beginning how long after sunset?",
+      "question_fa": "چراغ‌های جلو را باید چه مدت پس از غروب آفتاب روشن کنید؟",
+      "answers": [
+        {
+          "en": "30 minutes after sunset",
+          "fa": "۳۰ دقیقه پس از غروب"
+        },
+        {
+          "en": "1 hour after sunset",
+          "fa": "۱ ساعت پس از غروب"
+        },
+        {
+          "en": "At full darkness only",
+          "fa": "فقط در تاریکی کامل"
+        },
+        {
+          "en": "15 minutes after sunset",
+          "fa": "۱۵ دقیقه پس از غروب"
+        }
+      ],
+      "correct_en": "30 minutes after sunset",
+      "explanation_en": "Use your headlights beginning 30 minutes after sunset until 30 minutes before sunrise, and whenever it is too dark to see 1,000 feet away.",
+      "explanation_fa": "چراغ‌های جلو را از ۳۰ دقیقه پس از غروب تا ۳۰ دقیقه پیش از طلوع روشن کنید، و هر زمان که برای دیدن تا ۱۰۰۰ فوتی هوا خیلی تاریک است."
+    },
+    {
+      "id": 88,
+      "topic": "speed-limits",
+      "source": "Section 8 - Basic Speed Law",
+      "question_en": "What is the Basic Speed Law in California?",
+      "question_fa": "قانون پایه سرعت در کالیفرنیا چیست؟",
+      "answers": [
+        {
+          "en": "Never drive faster than is safe for current conditions",
+          "fa": "هرگز سریع‌تر از حد ایمن برای شرایط فعلی رانندگی نکنید"
+        },
+        {
+          "en": "Always drive the posted limit",
+          "fa": "همیشه با سرعت تابلو رانندگی کنید"
+        },
+        {
+          "en": "65 mph everywhere",
+          "fa": "۶۵ مایل در ساعت همه‌جا"
+        },
+        {
+          "en": "Drive with the flow of traffic",
+          "fa": "همراه با جریان ترافیک برانید"
+        }
+      ],
+      "correct_en": "Never drive faster than is safe for current conditions",
+      "explanation_en": "The Basic Speed Law means you may never drive faster than is safe for current conditions, regardless of the posted limit.",
+      "explanation_fa": "قانون پایه سرعت یعنی هرگز نباید سریع‌تر از حد ایمن برای شرایط فعلی رانندگی کنید، صرف‌نظر از سرعت تابلو."
+    },
+    {
+      "id": 89,
+      "topic": "turns",
+      "source": "Section 6 - Right Turn Against Red",
+      "question_en": "You may turn right on a red light only after doing what?",
+      "question_fa": "در چراغ قرمز فقط پس از انجام چه کاری می‌توانید به راست بپیچید؟",
+      "answers": [
+        {
+          "en": "Coming to a complete stop, unless a sign prohibits it",
+          "fa": "توقف کامل، مگر تابلویی آن را ممنوع کرده باشد"
+        },
+        {
+          "en": "Slowing down only",
+          "fa": "فقط آهسته کردن"
+        },
+        {
+          "en": "Honking first",
+          "fa": "اول بوق زدن"
+        },
+        {
+          "en": "Nothing, you can turn freely",
+          "fa": "هیچ، آزادانه می‌توانید بپیچید"
+        }
+      ],
+      "correct_en": "Coming to a complete stop, unless a sign prohibits it",
+      "explanation_en": "You may turn right at a red light after a complete stop, unless a NO TURN ON RED sign is posted. Yield to pedestrians and turn when safe.",
+      "explanation_fa": "پس از توقف کامل می‌توانید در چراغ قرمز به راست بپیچید، مگر تابلوی «گردش به راست ممنوع» نصب شده باشد. به عابران حق تقدم بدهید و وقتی ایمن بود بپیچید."
+    },
+    {
+      "id": 90,
+      "topic": "safe-driving",
+      "source": "Section 6 - Changing Lanes",
+      "question_en": "What is the last thing you should check before changing lanes?",
+      "question_fa": "آخرین چیزی که قبل از تغییر خط باید بررسی کنید چیست؟",
+      "answers": [
+        {
+          "en": "Your blind spot by looking over your shoulder",
+          "fa": "نقطه کور با نگاه کردن از روی شانه"
+        },
+        {
+          "en": "Your radio",
+          "fa": "رادیوی خود"
+        },
+        {
+          "en": "Your speed only",
+          "fa": "فقط سرعت خود"
+        },
+        {
+          "en": "The car two lanes over",
+          "fa": "ماشین دو خط آن‌طرف‌تر"
+        }
+      ],
+      "correct_en": "Your blind spot by looking over your shoulder",
+      "explanation_en": "Before changing lanes, signal, check mirrors, check traffic, and look over your shoulder to check your blind spot for vehicles, motorcyclists, and bicyclists.",
+      "explanation_fa": "قبل از تغییر خط، راهنما بزنید، آینه‌ها و ترافیک را بررسی کنید، و از روی شانه نگاه کنید تا نقطه کور را برای خودروها، موتورسواران و دوچرخه‌سواران چک کنید."
+    },
+    {
+      "id": 91,
+      "topic": "sharing-road",
+      "source": "Section 7 - Motorcycles",
+      "question_en": "Is it legal for motorcycles to share lanes (lane splitting) in California?",
+      "question_fa": "آیا حرکت موتورسیکلت بین خطوط (لِین‌اسپلیتینگ) در کالیفرنیا قانونی است؟",
+      "answers": [
+        {
+          "en": "Yes, lane splitting is legal",
+          "fa": "بله، حرکت بین خطوط قانونی است"
+        },
+        {
+          "en": "No, it is never legal",
+          "fa": "نه، هرگز قانونی نیست"
+        },
+        {
+          "en": "Only on freeways",
+          "fa": "فقط در بزرگراه‌ها"
+        },
+        {
+          "en": "Only at night",
+          "fa": "فقط در شب"
+        }
+      ],
+      "correct_en": "Yes, lane splitting is legal",
+      "explanation_en": "It is legal to share lanes with motorcycles, known as lane splitting. Give motorcycles the full lane whenever possible.",
+      "explanation_fa": "تقسیم خط با موتورسیکلت‌ها، معروف به لِین‌اسپلیتینگ، قانونی است. هر وقت ممکن بود کل خط را به موتورسیکلت بدهید."
+    },
+    {
+      "id": 92,
+      "topic": "safe-driving",
+      "source": "Section 8 - Know What is Behind You",
+      "question_en": "How should you check traffic behind you?",
+      "question_fa": "چگونه باید ترافیک پشت سر خود را بررسی کنید؟",
+      "answers": [
+        {
+          "en": "Use mirrors and turn your head",
+          "fa": "از آینه‌ها استفاده کنید و سر خود را بچرخانید"
+        },
+        {
+          "en": "Only the rearview mirror",
+          "fa": "فقط آینه وسط"
+        },
+        {
+          "en": "Listen for horns",
+          "fa": "به صدای بوق گوش دهید"
+        },
+        {
+          "en": "You do not need to check",
+          "fa": "نیازی به بررسی نیست"
+        }
+      ],
+      "correct_en": "Use mirrors and turn your head",
+      "explanation_en": "Check behind you using your rearview mirror, side mirrors, and by turning your head, especially before changing lanes, slowing, or backing up.",
+      "explanation_fa": "با آینه وسط، آینه‌های بغل و چرخاندن سر، پشت سر خود را بررسی کنید، به‌ویژه قبل از تغییر خط، آهسته کردن یا دنده‌عقب."
+    },
+    {
+      "id": 93,
+      "topic": "penalties",
+      "source": "Section 7 - Work Zones",
+      "question_en": "Fines for traffic violations in a work zone can be how much?",
+      "question_fa": "جریمه تخلفات رانندگی در منطقه کارگاهی می‌تواند چقدر باشد؟",
+      "answers": [
+        {
+          "en": "$1,000 or more",
+          "fa": "۱٬۰۰۰ دلار یا بیشتر"
+        },
+        {
+          "en": "$100 or less",
+          "fa": "۱۰۰ دلار یا کمتر"
+        },
+        {
+          "en": "$50",
+          "fa": "۵۰ دلار"
+        },
+        {
+          "en": "There is no fine",
+          "fa": "جریمه‌ای ندارد"
+        }
+      ],
+      "correct_en": "$1,000 or more",
+      "explanation_en": "Fines for traffic violations in a work zone can be $1,000 or more. Fines are also doubled in construction zones when workers are present.",
+      "explanation_fa": "جریمه تخلفات رانندگی در منطقه کارگاهی می‌تواند ۱٬۰۰۰ دلار یا بیشتر باشد. در مناطق ساخت‌وساز هنگام حضور کارگران جریمه‌ها دو برابر می‌شود."
+    },
+    {
+      "id": 94,
+      "topic": "safe-driving",
+      "source": "Section 6 - Driving Off Pavement",
+      "question_en": "If your wheels drift off the pavement, what should you NOT do?",
+      "question_fa": "اگر چرخ‌های شما از جاده آسفالت خارج شد، چه کاری را نباید بکنید؟",
+      "answers": [
+        {
+          "en": "Turn the wheel sharply back onto the road",
+          "fa": "فرمان را به‌شدت به سمت جاده بچرخانید"
+        },
+        {
+          "en": "Grip the wheel firmly",
+          "fa": "فرمان را محکم بگیرید"
+        },
+        {
+          "en": "Ease off the accelerator",
+          "fa": "پا را از روی گاز بردارید"
+        },
+        {
+          "en": "Brake gently",
+          "fa": "به‌آرامی ترمز کنید"
+        }
+      ],
+      "correct_en": "Turn the wheel sharply back onto the road",
+      "explanation_en": "Do not turn the wheel with too much force, which could send you into oncoming traffic. Grip firmly, ease off the gas, brake gently, then steer back carefully.",
+      "explanation_fa": "فرمان را با زور زیاد نچرخانید، چون ممکن است شما را به ترافیک مقابل بفرستد. محکم بگیرید، پا را از گاز بردارید، به‌آرامی ترمز کنید، سپس با احتیاط به جاده برگردید."
+    },
+    {
+      "id": 95,
+      "topic": "licensing",
+      "source": "Section 3 - Knowledge Test",
+      "question_en": "During the knowledge test, what are you NOT allowed to use?",
+      "question_fa": "در طول آزمون تئوری، از چه چیزی اجازه استفاده ندارید؟",
+      "answers": [
+        {
+          "en": "The handbook or a cell phone",
+          "fa": "کتابچه راهنما یا تلفن همراه"
+        },
+        {
+          "en": "A pencil",
+          "fa": "مداد"
+        },
+        {
+          "en": "Reading glasses",
+          "fa": "عینک مطالعه"
+        },
+        {
+          "en": "The test screen",
+          "fa": "صفحه آزمون"
+        }
+      ],
+      "correct_en": "The handbook or a cell phone",
+      "explanation_en": "You are not allowed to use any testing aids during the knowledge test, such as the California Driver's Handbook or a cell phone.",
+      "explanation_fa": "در طول آزمون تئوری اجازه استفاده از هیچ وسیله کمکی مانند کتابچه راهنمای رانندگی کالیفرنیا یا تلفن همراه را ندارید."
+    },
+    {
+      "id": 96,
+      "topic": "safe-driving",
+      "source": "Section 5 - Hearing",
+      "question_en": "Is it legal to wear headphones or earplugs in both ears while driving?",
+      "question_fa": "آیا استفاده از هدفون یا گوش‌گیر در هر دو گوش هنگام رانندگی قانونی است؟",
+      "answers": [
+        {
+          "en": "No, it is illegal",
+          "fa": "نه، غیرقانونی است"
+        },
+        {
+          "en": "Yes, always",
+          "fa": "بله، همیشه"
+        },
+        {
+          "en": "Only on the freeway",
+          "fa": "فقط در بزرگراه"
+        },
+        {
+          "en": "Only if the volume is low",
+          "fa": "فقط اگر صدا کم باشد"
+        }
+      ],
+      "correct_en": "No, it is illegal",
+      "explanation_en": "It is illegal to wear a headset or earplugs in both ears while driving, because you must be able to hear horns, sirens, and other hazards.",
+      "explanation_fa": "استفاده از هدفون یا گوش‌گیر در هر دو گوش هنگام رانندگی غیرقانونی است، چون باید بتوانید بوق، آژیر و خطرات دیگر را بشنوید."
+    },
+    {
+      "id": 97,
+      "topic": "right-of-way",
+      "source": "Section 6 - Crossing or Entering Traffic",
+      "question_en": "An oncoming vehicle has its right turn signal on as you wait to turn left. What should you do?",
+      "question_fa": "خودروی روبرو هنگامی که شما منتظر گردش به چپ هستید راهنمای راست خود را روشن کرده است. چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Wait for it to actually start turning before you go",
+          "fa": "صبر کنید تا واقعاً شروع به پیچیدن کند، سپس حرکت کنید"
+        },
+        {
+          "en": "Turn immediately",
+          "fa": "فوراً بپیچید"
+        },
+        {
+          "en": "Assume it will turn and proceed",
+          "fa": "فرض کنید می‌پیچد و حرکت کنید"
+        },
+        {
+          "en": "Honk to make it turn",
+          "fa": "بوق بزنید تا بپیچد"
+        }
+      ],
+      "correct_en": "Wait for it to actually start turning before you go",
+      "explanation_en": "Do not assume an oncoming vehicle with its turn signal on will actually turn. The driver may have it on by mistake. Wait for it to start turning first.",
+      "explanation_fa": "فرض نکنید خودروی روبرو که راهنمایش روشن است حتماً می‌پیچد. ممکن است راننده اشتباهی آن را روشن کرده باشد. اول صبر کنید تا شروع به پیچیدن کند."
+    },
+    {
+      "id": 98,
+      "topic": "sharing-road",
+      "source": "Section 7 - Safety Zones",
+      "question_en": "What must you never do regarding a safety zone?",
+      "question_fa": "درباره یک منطقه ایمنی هرگز چه کاری نباید بکنید؟",
+      "answers": [
+        {
+          "en": "Drive through it under any condition",
+          "fa": "تحت هیچ شرایطی از آن عبور کنید"
+        },
+        {
+          "en": "Slow down near it",
+          "fa": "نزدیک آن آهسته کنید"
+        },
+        {
+          "en": "Watch for pedestrians",
+          "fa": "مراقب عابران باشید"
+        },
+        {
+          "en": "Stop before it",
+          "fa": "قبل از آن توقف کنید"
+        }
+      ],
+      "correct_en": "Drive through it under any condition",
+      "explanation_en": "A safety zone is set aside for pedestrians waiting for buses, streetcars, and trolleys. Do not drive through a safety zone under any condition.",
+      "explanation_fa": "منطقه ایمنی برای عابرانی که منتظر اتوبوس، واگن برقی و ترولی هستند در نظر گرفته شده است. تحت هیچ شرایطی از منطقه ایمنی عبور نکنید."
+    },
+    {
+      "id": 99,
+      "topic": "safe-driving",
+      "source": "Section 7 - Choose Between Hazards",
+      "question_en": "When there are dangers on both sides of the road at once, what should you do?",
+      "question_fa": "وقتی همزمان در هر دو طرف جاده خطر وجود دارد، چه باید بکنید؟",
+      "answers": [
+        {
+          "en": "Give more space to the greater danger, one at a time",
+          "fa": "به خطر بزرگ‌تر فضای بیشتری بدهید، یکی‌یکی"
+        },
+        {
+          "en": "Speed up to get past both",
+          "fa": "سرعت بگیرید تا از هر دو رد شوید"
+        },
+        {
+          "en": "Drive exactly between them",
+          "fa": "دقیقاً بین آن‌ها برانید"
+        },
+        {
+          "en": "Stop in the middle of the road",
+          "fa": "وسط جاده توقف کنید"
+        }
+      ],
+      "correct_en": "Give more space to the greater danger, one at a time",
+      "explanation_en": "If one danger is greater than the other, give more space to the most dangerous situation and take one hazard at a time.",
+      "explanation_fa": "اگر یک خطر بزرگ‌تر از دیگری است، به خطرناک‌ترین وضعیت فضای بیشتری بدهید و هر بار یک خطر را مدیریت کنید."
+    },
+    {
+      "id": 100,
+      "topic": "penalties",
+      "source": "Section 7 - Points on Your Record",
+      "question_en": "How long do most traffic convictions and collisions stay on your driver's record?",
+      "question_fa": "بیشتر محکومیت‌های رانندگی و تصادفات چه مدت در سابقه رانندگی شما می‌مانند؟",
+      "answers": [
+        {
+          "en": "36 months or longer",
+          "fa": "۳۶ ماه یا بیشتر"
+        },
+        {
+          "en": "12 months",
+          "fa": "۱۲ ماه"
+        },
+        {
+          "en": "6 months",
+          "fa": "۶ ماه"
+        },
+        {
+          "en": "10 years always",
+          "fa": "همیشه ۱۰ سال"
+        }
+      ],
+      "correct_en": "36 months or longer",
+      "explanation_en": "Traffic convictions and collisions stay on your record for 36 months or longer, depending on the type of conviction. (DUIs stay 10 years.)",
+      "explanation_fa": "محکومیت‌های رانندگی و تصادفات بسته به نوع محکومیت، ۳۶ ماه یا بیشتر در سابقه شما می‌مانند. (محکومیت رانندگی در حالت مستی ۱۰ سال می‌ماند.)"
+    }
+  ]
+}

@@ -2,14 +2,48 @@
 import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { track } from '@vercel/analytics';
+import questionsData from "../data/questions.json";
 
-interface Question {
-  question: string
-  answers: string[]
-  correct: string
-  explanation: string
+interface Answer {
+  en: string
+  fa: string
 }
 
+interface Question {
+  id: number
+  topic: string
+  source: string
+  question_en: string
+  question_fa: string
+  answers: Answer[]
+  correct_en: string
+  explanation_en: string
+  explanation_fa: string
+}
+
+function getSeenQuestions(): number[] {
+  if (typeof window === 'undefined') return []
+  const stored = localStorage.getItem('seenQuestions')
+  return stored ? JSON.parse(stored) : []
+}
+
+/// saves one qustion id into 'seen' list in the browser, fction purpose is a side effect, saving to storage
+function markQuestionSeen(id: number): void {
+  // If we're on the server no local storage, its crash guard
+  if (typeof window === 'undefined') return
+
+  // get the current seen list 1st, add to it instead of overwriting
+  const seen = getSeenQuestions()
+
+  /// only add this id if its not already in the list
+  if (!seen.includes(id)){
+    // add the new id to the end of the list
+    seen.push(id)
+  }
+  /// localStorage only stores strings, so turn the arr into a string with JSON.stringify then save it
+  localStorage.setItem('seenQuestions', JSON.stringify(seen))
+
+}
 
 function QuizInner(){
 
