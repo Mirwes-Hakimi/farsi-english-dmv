@@ -74,11 +74,18 @@ function selectQuizQuestions(): Question[] {
   // Keep only questions whose id is NOT in the seen list. This is the no-repeat core.
   const unseen = allQuestions.filter(q => !seen.includes(q.id))
 
-  // Shuffle the unseen questions into a random order.
+// Shuffle the unseen questions into a random order.
   const shuffled = unseen.sort(() => Math.random() - 0.5)
 
   // Take the first 46 (or fewer if fewer remain).
-  return shuffled.slice(0, 46)
+  const selected = shuffled.slice(0, 46)
+
+  // Shuffle the answer options inside each question so the correct one isn't always first.
+  return selected.map(q => ({
+    ...q,
+    answers: [...q.answers].sort(() => Math.random() - 0.5)
+  }))
+
 }
 
 function QuizInner() {
