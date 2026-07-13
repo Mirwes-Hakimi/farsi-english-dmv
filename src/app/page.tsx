@@ -29,23 +29,18 @@ export default function Home() {
           {/* Two buttons now (Pashto removed, since the question bank is English + Farsi only) */}
           <div className="flex flex-col sm:flex-row gap-3">
 
-            {/* English start button */}
-            <a href="/quiz?lang=en"
-              className="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg text-center">
-              Start in English
-            </a>
+           
 
             {/* Farsi / Dari start button */}
             <a href="/quiz?lang=fa"
               className="bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-colors shadow-lg text-center">
-              شروع به فارسی / دری
-            </a>
+              Start شروع             </a>
 
           </div>
 
           {/* Small reassurance line under the buttons */}
           <p className="text-gray-400 text-sm mt-2">
-            No signup required • 46 questions • Instant results
+            No signup required • 100 questions • Instant results
           </p>
         </div>
       </section>
@@ -110,7 +105,7 @@ export default function Home() {
             <div className="text-center">
               <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Answer Questions</h3>
-              <p className="text-gray-500">Work through 46 DMV questions in English and Farsi. Get instant feedback on every answer.</p>
+              <p className="text-gray-500">Work through 100 DMV questions in English and Farsi. Get instant feedback on every answer.</p>
             </div>
 
             {/* Step 3 */}
